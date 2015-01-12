@@ -31,6 +31,12 @@ docpopular:
   links:
   - [Doctor Popular, 'http://www.docpop.org/', 'http://www.docpop.org/feed/atom/']
   start: 2014/12/27
+eric:
+  links:
+  - [Eric James Lyman, 'http://www.ericlyman.net/', 'http://www.ericlyman.net/feed']
+  - [Eric3D, 'http://www.eric3d.com/blog', 'http://www.eric3d.com/1/feed']
+  - [Eric on Medium, 'https://medium.com/@ericjameslyman', 'https://medium.com/feed/@ericjameslyman']
+  start: 2014/12/11
 gleitz:
   links:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
