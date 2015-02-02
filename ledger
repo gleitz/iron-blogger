@@ -88,3 +88,38 @@
 2015-01-26 Fine Week 68
   User:thisisparker    -5
   Pool:Owed:thisisparker
+
+2015-01-26 Payment
+  Pool:Owed:abhishek    -5
+  Pool:Paid
+2015-01-26 Payment
+  Pool:Owed:benrusso    -5
+  Pool:Paid
+
+2015-02-02 Fine Week 69
+  User:abhishek    -5
+  Pool:Owed:abhishek
+2015-02-02 Fine Week 69
+  User:adikamdar    -5
+  Pool:Owed:adikamdar
+2015-02-02 Fine Week 69
+  User:benrusso    -5
+  Pool:Owed:benrusso
+2015-02-02 Fine Week 69
+  User:chrismaury    -5
+  Pool:Owed:chrismaury
+2015-02-02 Fine Week 69
+  User:dean    -5
+  Pool:Owed:dean
+2015-02-02 Fine Week 69
+  User:eric    -5
+  Pool:Owed:eric
+2015-02-02 Fine Week 69
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2015-02-02 Fine Week 69
+  User:judytuna    -5
+  Pool:Owed:judytuna
+2015-02-02 Fine Week 69
+  User:mikek    -5
+  Pool:Owed:mikek
