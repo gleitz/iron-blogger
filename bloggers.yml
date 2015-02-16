@@ -3,6 +3,7 @@ abhishek:
   - [shekispeaks, 'http://www.sheki.in/', 'http://www.sheki.in/index.xml']
   start: 2014/12/27
 adikamdar:
+  end: '2015-02-09'
   links:
   - [stuffthought, 'http://stuffthought.com/blog/', 'http://stuffthought.com/blog/?feed=atom']
   start: 2014/12/27
@@ -32,11 +33,12 @@ docpopular:
   - [Doctor Popular, 'http://www.docpop.org/', 'http://www.docpop.org/feed/atom/']
   start: 2014/12/27
 eric:
+  end: 2015/02/11
   links:
   - [Eric James Lyman, 'http://www.ericlyman.net/', 'http://www.ericlyman.net/feed']
   - [Eric3D, 'http://www.eric3d.com/blog', 'http://www.eric3d.com/1/feed']
   - [Eric on Medium, 'https://medium.com/@ericjameslyman', 'https://medium.com/feed/@ericjameslyman']
-  start: 2014/12/11
+  start: 2015/01/11
 gleitz:
   links:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
@@ -50,6 +52,7 @@ jtfoote:
   - [waxing prolix, 'http://www.rotormind.com/blog/', 'http://www.rotormind.com/blog/feed/']
   start: 2014/12/27
 judytuna:
+  end: '2015-02-09'
   links:
   - [tuna says, 'http://judytuna.com/', 'http://judytuna.com/feed/']
   start: 2014/12/27
@@ -67,6 +70,7 @@ mike:
   - [Mike Makes Art Blog, 'http://mikemakesart.blogspot.com/', 'http://mikemakesart.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
 mikek:
+  end: '2015-02-09'
   links:
   - [Mocking Eye, 'http://mockingeye.com/', 'http://mockingeye.com/atom.xml']
   start: 2014/12/27
