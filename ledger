@@ -252,6 +252,9 @@
 2015-03-10 Payment
   Pool:Owed:maira    -15
   Pool:Paid
+2015-03-10 Payment
+  Pool:Owed:christine    -10
+  Pool:Paid
 
 2015-03-16 Fine Week 75
   User:abhishek    -5
