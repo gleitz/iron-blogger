@@ -184,9 +184,11 @@
 
 2015-02-09 Punt
   Pool:Owed:adikamdar  -35.0
-  User:adikamdar2015-02-09 Punt
+  User:adikamdar
+2015-02-09 Punt
   Pool:Owed:judytuna  -35.0
-  User:judytuna2015-02-09 Punt
+  User:judytuna
+2015-02-09 Punt
   Pool:Owed:mikek  -35.0
   User:mikek
 2015-02-23 Fine Week 72
@@ -442,3 +444,10 @@
 2015-05-04 Fine Week 82
   User:vivek    -5
   Pool:Owed:vivek
+
+2015-05-04 Payment
+  Pool:Owed:benrusso    -5
+  Pool:Paid
+2015-05-04 Payment
+  Pool:Owed:tavish    -5
+  Pool:Paid
