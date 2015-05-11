@@ -448,3 +448,22 @@
 2015-05-04 Payment
   Pool:Owed:tavish    -5
   Pool:Paid
+
+2015-05-11 Fine Week 83
+  User:abhishek    -5
+  Pool:Owed:abhishek
+2015-05-11 Fine Week 83
+  User:benrusso    -5
+  Pool:Owed:benrusso
+2015-05-11 Fine Week 83
+  User:chrismaury    -5
+  Pool:Owed:chrismaury
+2015-05-11 Fine Week 83
+  User:christine    -5
+  Pool:Owed:christine
+2015-05-11 Fine Week 83
+  User:dean    -5
+  Pool:Owed:dean
+2015-05-11 Fine Week 83
+  User:vivek    -5
+  Pool:Owed:vivek
