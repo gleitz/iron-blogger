@@ -480,3 +480,26 @@
 2015-05-04 Punt
   Pool:Owed:vivek  -35.0
   User:vivek
+
+
+2015-05-11 Payment
+  Pool:Owed:benrusso    -5
+  Pool:Paid
+2015-05-11 Payment
+  Pool:Owed:tavish    -5
+  Pool:Paid
+2015-05-11 Payment
+  Pool:Owed:mike    -20
+  Pool:Paid
+2015-05-11 Payment
+  Pool:Owed:docpopular    -10
+  Pool:Paid
+2015-05-11 Payment
+  Pool:Owed:maira    -20
+  Pool:Paid
+2015-05-11 Payment
+  Pool:Owed:parker    -20
+  Pool:Paid
+2015-05-11 Payment
+  Pool:Owed:mikek    -15
+  Pool:Paid
