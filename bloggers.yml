@@ -85,6 +85,10 @@ thisisparker:
   links:
   - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
   start: 2014/12/27
+tavish:
+  links:
+  - [tavish armstrong, 'http://tavi.sh/', 'http://tavisharmstrong.com/feeds/all.atom.xml']
+  start: 2015/04/14
 vivek:
   end: '2015-05-04'
   links:
