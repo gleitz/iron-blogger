@@ -66,7 +66,7 @@ maira:
   start: 2014/12/27
 matt:
   links:
-  - [I like turtles, 'http://mattspitz.net/', 'http://mattspitz.net/feed.xml']
+  - [I like turtles, 'http://mattspitz.net/', 'http://sbo-blog.mattspitz.net/feed.xml']
   - [Matt Spitz, 'http://mattspitz.me/', 'http://mattspitz.me/feed.xml']
   start: 2014/12/27
 mike:
@@ -81,14 +81,14 @@ randylubin:
   links:
   - [Randy Lubin, 'http://blog.randylubin.com/', 'http://feeds.feedburner.com/randylubin?format=xml']
   start: 2014/12/27
-thisisparker:
-  links:
-  - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
-  start: 2014/12/27
 tavish:
   links:
   - [tavish armstrong, 'http://tavi.sh/', 'http://tavisharmstrong.com/feeds/all.atom.xml']
   start: 2015/04/14
+thisisparker:
+  links:
+  - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
+  start: 2014/12/27
 vivek:
   end: '2015-05-04'
   links:
