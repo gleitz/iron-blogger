@@ -13,6 +13,7 @@ ariel:
   - [Ariel Klevecz, 'http://www.arielklevecz.com/blog/', 'http://www.arielklevecz.com/blog/atom.xml']
   start: 2014/12/27
 benrusso:
+  end: '2015-05-25'
   links:
   - [Cracked Machine, 'https://crackedmachine.wordpress.com/', 'https://crackedmachine.wordpress.com/feed/']
   start: 2014/01/04
