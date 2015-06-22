@@ -9,6 +9,7 @@ adikamdar:
   - [stuffthought, 'http://stuffthought.com/blog/', 'http://stuffthought.com/blog/?feed=atom']
   start: 2014/12/27
 ariel:
+  end: '2015-06-15'
   links:
   - [Ariel Klevecz, 'http://www.arielklevecz.com/blog/', 'http://www.arielklevecz.com/blog/atom.xml']
   start: 2014/12/27
