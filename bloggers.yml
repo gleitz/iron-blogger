@@ -49,6 +49,7 @@ gleitz:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
   start: 2014/12/27
 jason:
+  end: '2015-06-22'
   links:
   - [Jason Baldwin, 'http://jasonsbaldwin.blogspot.com/', 'http://jasonsbaldwin.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
