@@ -655,3 +655,7 @@
 2015-07-06 Fine Week 91
   User:thisisparker    -5
   Pool:Owed:thisisparker
+
+2015-07-07 Payment
+  Pool:Owed:thisisparker    -30
+  Pool:Paid
