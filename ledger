@@ -634,3 +634,7 @@
 2015-07-07 Payment
   Pool:Owed:thisisparker    -30
   Pool:Paid
+
+2015-07-07 Payment
+  Pool:Owed:gleitz    -30
+  Pool:Paid
