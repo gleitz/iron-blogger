@@ -641,3 +641,10 @@
 2015-07-07 Payment
   Pool:Owed:tavish    -30
   Pool:Paid
+
+2015-07-13 Fine Week 92
+  User:maira    -5
+  Pool:Owed:maira
+2015-07-13 Fine Week 92
+  User:mike    -5
+  Pool:Owed:mike
