@@ -73,6 +73,7 @@ matt:
   - [Matt Spitz, 'http://mattspitz.me/', 'http://mattspitz.me/feed.xml']
   start: 2014/12/27
 mike:
+  end: '2015-08-03'
   links:
   - [Mike Makes Art Blog, 'http://mikemakesart.blogspot.com/', 'http://mikemakesart.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
