@@ -708,3 +708,13 @@
 2015-08-03 Payment
   Pool:Owed:maira    -30
   Pool:Paid
+
+2015-08-17 Fine Week 97
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2015-08-17 Fine Week 97
+  User:maira    -5
+  Pool:Owed:maira
+2015-08-17 Fine Week 97
+  User:tavish    -5
+  Pool:Owed:tavish
