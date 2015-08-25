@@ -701,10 +701,6 @@
   User:thisisparker    -5
   Pool:Owed:thisisparker
 
-2015-08-03 Punt
-  Pool:Owed:mike  -35.0
-  User:mike
-
 2015-08-03 Payment
   Pool:Owed:maira    -30
   Pool:Paid
@@ -732,3 +728,16 @@
 2015-08-24 Fine Week 98
   User:tavish    -5
   Pool:Owed:tavish
+
+2015-08-25 Payment
+  Pool:Owed:christine    -25
+  Pool:Paid
+2015-08-25 Payment
+  Pool:Owed:gleitz    -25
+  Pool:Paid
+2015-08-25 Payment for Christine
+  User:docpopular    -5
+  Pool:Owed:docpopular
+2015-08-25 Drinkup
+  Pool:Paid  -137
+  Pool:Events
