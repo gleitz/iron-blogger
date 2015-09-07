@@ -89,6 +89,7 @@ roy:
   - [aupiff, 'http://aupiff.com/', 'http://aupiff.com/atom.xml']
   start: 2015/08/28
 tavish:
+  end: '2015-08-31'
   links:
   - [tavish armstrong, 'http://tavi.sh/', 'http://tavisharmstrong.com/feeds/all.atom.xml']
   start: 2015/04/14
