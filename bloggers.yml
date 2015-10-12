@@ -63,6 +63,7 @@ judytuna:
   - [tuna says, 'http://judytuna.com/', 'http://judytuna.com/feed/']
   start: 2014/12/27
 maira:
+  end: '2015-10-05'
   links:
   - [maira's blog, 'http://mairasutton.net/', 'http://mairasutton.net/?feed=rss2']
   start: 2014/12/27
@@ -97,10 +98,6 @@ thisisparker:
   links:
   - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
   start: 2014/12/27
-xtinasri:
-  links:
-  - [xtinasri, 'xtinasri.tumblr.com', 'http://xtinasri.tumblr.com/rss']
-  start: 2015/09/14
 vivek:
   end: '2015-08-24'
   links:
@@ -109,3 +106,7 @@ vivek:
   - [vivek on yelp, 'http://www.yelp.com/user_details?userid=BGzavA_ddMr-jGmhArv7fg',
     'http://www.yelp.com/syndicate/user/BGzavA_ddMr-jGmhArv7fg/rss.xml']
   start: 2014/12/27
+xtinasri:
+  links:
+  - [xtinasri, xtinasri.tumblr.com, 'http://xtinasri.tumblr.com/rss']
+  start: 2015/09/14
