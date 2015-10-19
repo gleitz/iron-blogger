@@ -844,6 +844,22 @@
   User:xtinasri    -5
   Pool:Owed:xtinasri
 
-2015-10-05 Punt
-  Pool:Owed:maira  -35.0
-  User:maira
+2015-10-12 Payment
+  Pool:Owed:maira    -30
+  Pool:Paid
+
+2015-10-19 Fine Week 106
+  User:christine    -5
+  Pool:Owed:christine
+2015-10-19 Fine Week 106
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2015-10-19 Fine Week 106
+  User:mikek    -5
+  Pool:Owed:mikek
+2015-10-19 Fine Week 106
+  User:roy    -5
+  Pool:Owed:roy
+2015-10-19 Fine Week 106
+  User:xtinasri    -5
+  Pool:Owed:xtinasri
