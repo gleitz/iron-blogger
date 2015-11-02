@@ -87,6 +87,7 @@ randylubin:
   - [Randy Lubin, 'http://blog.randylubin.com/', 'http://feeds.feedburner.com/randylubin?format=xml']
   start: 2014/12/27
 roy:
+  end: '2015-10-26'
   links:
   - [aupiff, 'http://aupiff.com/', 'http://aupiff.com/atom.xml']
   start: 2015/08/28
