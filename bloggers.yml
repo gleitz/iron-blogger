@@ -63,7 +63,6 @@ judytuna:
   - [tuna says, 'http://judytuna.com/', 'http://judytuna.com/feed/']
   start: 2014/12/27
 maira:
-  end: '2015-10-05'
   links:
   - [maira's blog, 'http://mairasutton.net/', 'http://mairasutton.net/?feed=rss2']
   start: 2014/12/27
