@@ -109,6 +109,7 @@ vivek:
     'http://www.yelp.com/syndicate/user/BGzavA_ddMr-jGmhArv7fg/rss.xml']
   start: 2014/12/27
 xtinasri:
+  end: '2015-11-16'
   links:
   - [xtinasri, xtinasri.tumblr.com, 'http://xtinasri.tumblr.com/rss']
   start: 2015/09/14
