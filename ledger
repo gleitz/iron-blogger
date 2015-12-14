@@ -937,3 +937,14 @@
 2015-12-07 Fine Week 113
   User:thisisparker    -5
   Pool:Owed:thisisparker
+
+2015-12-07 Payment
+  Pool:Owed:thisisparker    -25
+  Pool:Paid
+
+2015-12-14 Fine Week 114
+  User:christine    -5
+  Pool:Owed:christine
+2015-12-14 Fine Week 114
+  User:maira    -5
+  Pool:Owed:maira
