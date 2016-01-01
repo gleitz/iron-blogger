@@ -45,7 +45,6 @@ eric:
   - [Eric on Medium, 'https://medium.com/@ericjameslyman', 'https://medium.com/feed/@ericjameslyman']
   start: 2015/01/11
 gleitz:
-  end: '2015-11-09'
   links:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
   start: 2014/12/27
@@ -54,7 +53,6 @@ jason:
   - [Jason Baldwin, 'http://jasonsbaldwin.blogspot.com/', 'http://jasonsbaldwin.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
 jtfoote:
-  end: '2015-05-11'
   links:
   - [waxing prolix, 'http://www.rotormind.com/blog/', 'http://www.rotormind.com/blog/feed/']
   start: 2014/12/27

@@ -964,3 +964,11 @@
 2015-12-28 Fine Week 116
   User:thisisparker    -5
   Pool:Owed:thisisparker
+
+2015-12-28 Payment
+  Pool:Owed:jtfoote    -30
+  Pool:Paid
+
+2015-12-28 Payment
+  Pool:Owed:gleitz    -30
+  Pool:Paid
