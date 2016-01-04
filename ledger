@@ -972,3 +972,16 @@
 2015-12-28 Payment
   Pool:Owed:gleitz    -30
   Pool:Paid
+
+2016-01-04 Fine Week 117
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2016-01-04 Fine Week 117
+  User:jtfoote    -5
+  Pool:Owed:jtfoote
+2016-01-04 Fine Week 117
+  User:matt    -5
+  Pool:Owed:matt
+2016-01-04 Fine Week 117
+  User:thisisparker    -5
+  Pool:Owed:thisisparker
