@@ -5,11 +5,15 @@ import sys
 import urllib2
 import urlparse
 
+HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0'}
+
 with open('bloggers.yml') as f:
     users = yaml.safe_load(f.read())
 
+
 def fetch_links(url):
-    tree = html.fromstring(urllib2.urlopen(url).read())
+    req = urllib2.Request(url, headers=HEADERS)
+    tree = html.fromstring(urllib2.urlopen(req).read())
     links = tree.xpath(
         '//link[@rel="alternate"][contains(@type, "rss") or ' +
         'contains(@type, "atom") or contains(@type, "rdf")]')

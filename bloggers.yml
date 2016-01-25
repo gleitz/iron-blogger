@@ -14,6 +14,10 @@ jason:
   links:
   - [Jason Baldwin, 'http://jasonsbaldwin.blogspot.com/', 'http://jasonsbaldwin.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
+jeremy:
+  links:
+  - [a digital life, 'https://jeremybrooks.wordpress.com/', 'https://jeremybrooks.wordpress.com/feed/']
+  start: 2016/01/24
 jtfoote:
   links:
   - [waxing prolix, 'http://www.rotormind.com/blog/', 'http://www.rotormind.com/blog/feed/']
@@ -43,6 +47,10 @@ randylubin:
   links:
   - [Randy Lubin, 'http://blog.randylubin.com/', 'http://feeds.feedburner.com/randylubin?format=xml']
   start: 2014/12/27
+richa:
+  links:
+  - [richa, 'https://medium.com/@richaaaa/', 'https://medium.com/feed/@richaaaa']
+  start: 2016/01/17
 thisisparker:
   links:
   - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
@@ -51,8 +59,6 @@ vivek:
   links:
   - [personal inventory, 'http://personalinventory.tumblr.com/', 'http://personalinventory.tumblr.com/rss']
   - [pedantree, 'http://pedantree.tumblr.com/', 'http://pedantree.tumblr.com/rss']
-  - [vivek on yelp, 'http://www.yelp.com/user_details?userid=BGzavA_ddMr-jGmhArv7fg',
-    'http://www.yelp.com/syndicate/user/BGzavA_ddMr-jGmhArv7fg/rss.xml']
   start: 2014/12/27
 xtinasri:
   links:
