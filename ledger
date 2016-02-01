@@ -31,3 +31,19 @@
 2016-12-16 Payment
   Pool:Owed:thisisparker    -5
   Pool:Paid
+
+2016-02-01 Fine Week 121
+  User:isaac    -5
+  Pool:Owed:isaac
+2016-02-01 Fine Week 121
+  User:jtfoote    -5
+  Pool:Owed:jtfoote
+2016-02-01 Fine Week 121
+  User:maira    -5
+  Pool:Owed:maira
+2016-02-01 Fine Week 121
+  User:thisisparker    -5
+  Pool:Owed:thisisparker
+2016-02-01 Fine Week 121
+  User:vivek    -5
+  Pool:Owed:vivek
