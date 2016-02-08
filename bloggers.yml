@@ -35,6 +35,10 @@ matt:
   - [I like turtles, 'http://mattspitz.net/', 'http://sbo-blog.mattspitz.net/feed.xml']
   - [Matt Spitz, 'http://mattspitz.me/', 'http://mattspitz.me/feed.xml']
   start: 2014/12/27
+megan:
+  links:
+  - [the lovely ponder, 'https://thelovelyponder.wordpress.com/', 'https://thelovelyponder.wordpress.com/feed']
+  start: 2016/02/04
 mike:
   links:
   - [Mike Makes Art Blog, 'http://mikemakesart.blogspot.com/', 'http://mikemakesart.blogspot.com/feeds/posts/default?alt=rss']
@@ -72,7 +76,3 @@ xtinasri:
   links:
   - [xtinasri, xtinasri.tumblr.com, 'http://xtinasri.tumblr.com/rss']
   start: 2015/09/14
-megan:
-  links:
-  - [the lovely ponder, 'https://thelovelyponder.wordpress.com/', 'https://thelovelyponder.wordpress.com/feed']
-  start: 2016/02/04
