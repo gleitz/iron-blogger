@@ -48,3 +48,22 @@
 2016-02-01 Payment
   Pool:Owed:natalie    -5
   Pool:Paid
+
+2016-02-08 Fine Week 122
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2016-02-08 Fine Week 122
+  User:maira    -5
+  Pool:Owed:maira
+2016-02-08 Fine Week 122
+  User:matt    -5
+  Pool:Owed:matt
+2016-02-08 Fine Week 122
+  User:richa    -5
+  Pool:Owed:richa
+2016-02-08 Fine Week 122
+  User:vivek    -5
+  Pool:Owed:vivek
+2016-02-08 Fine Week 122
+  User:xtinasri    -5
+  Pool:Owed:xtinasri
