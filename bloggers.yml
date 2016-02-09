@@ -10,9 +10,9 @@ gleitz:
   links:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
   start: 2014/12/27
-isaac:
+issac:
   links:
-  - [isaac kelly, 'http://www.issackelly.com/blog/', 'http://issackelly.com/blog/feeds/']
+  - [issac kelly, 'http://www.issackelly.com/blog/', 'http://issackelly.com/blog/feeds/']
   start: 2016/01/23
 jason:
   links:
