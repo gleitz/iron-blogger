@@ -39,6 +39,7 @@ def parse_feeds(weeks, uri):
         try:
             date = parse_published(get_date(post))
         except ValueError:
+            print >>sys.stderr, "ERROR: cannot parse date"
             continue
         if date < START:
             continue
