@@ -44,6 +44,7 @@ mike:
   - [Mike Makes Art Blog, 'http://mikemakesart.blogspot.com/', 'http://mikemakesart.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
 mikek:
+  end: '2016-03-14'
   links:
   - [Mocking Eye, 'http://mockingeye.com/', 'http://mockingeye.com/atom.xml']
   start: 2014/12/27
@@ -60,6 +61,7 @@ randylubin:
   - [Randy Lubin, 'http://blog.randylubin.com/', 'http://feeds.feedburner.com/randylubin?format=xml']
   start: 2014/12/27
 richa:
+  end: '2016-03-16'
   links:
   - [richa, 'https://medium.com/@richaaaa/', 'https://medium.com/feed/@richaaaa']
   start: 2016/01/17
@@ -74,6 +76,7 @@ vivek:
   - [pedantree, 'http://pedantree.tumblr.com/', 'http://pedantree.tumblr.com/rss']
   start: 2014/12/27
 xtinasri:
+  end: '2016-03-14'
   links:
   - [xtinasri, xtinasri.tumblr.com, 'http://xtinasri.tumblr.com/rss']
   start: 2015/09/14
