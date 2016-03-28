@@ -15,6 +15,7 @@ issac:
   - [Issac Kelly, 'https://www.issackelly.com/blog/', 'https://www.issackelly.com/blog/.xml']
   start: 2016/01/23
 jason:
+  end: '2016-03-21'
   links:
   - [Jason Baldwin, 'http://jasonsbaldwin.blogspot.com/', 'http://jasonsbaldwin.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
