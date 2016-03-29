@@ -244,3 +244,7 @@
 2016-03-21 Punt
   Pool:Owed:jason  -35.0
   User:jason
+
+2016-03-21 Payment
+  Pool:Owed:gleitz    -30
+  Pool:Paid
