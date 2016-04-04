@@ -251,3 +251,25 @@
 2016-03-21 Payment
   Pool:Owed:issac    -20
   Pool:Paid
+
+2016-04-04 Fine Week 130
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2016-04-04 Fine Week 130
+  User:issac    -5
+  Pool:Owed:issac
+2016-04-04 Fine Week 130
+  User:jtfoote    -5
+  Pool:Owed:jtfoote
+2016-04-04 Fine Week 130
+  User:maira    -5
+  Pool:Owed:maira
+2016-04-04 Fine Week 130
+  User:matt    -5
+  Pool:Owed:matt
+2016-04-04 Fine Week 130
+  User:natalie    -5
+  Pool:Owed:natalie
+2016-04-04 Fine Week 130
+  User:thisisparker    -5
+  Pool:Owed:thisisparker
