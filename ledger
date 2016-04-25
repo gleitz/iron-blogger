@@ -291,3 +291,36 @@
 2016-04-11 Fine Week 131
   User:thisisparker    -5
   Pool:Owed:thisisparker
+
+2016-04-11 Payment
+  Pool:Owed:randylubin    -5
+  Pool:Paid
+2016-04-11 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
+
+
+2016-04-25 Fine Week 133
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2016-04-25 Fine Week 133
+  User:issac    -5
+  Pool:Owed:issac
+2016-04-25 Fine Week 133
+  User:matt    -5
+  Pool:Owed:matt
+2016-04-25 Fine Week 133
+  User:megan    -5
+  Pool:Owed:megan
+2016-04-25 Fine Week 133
+  User:mike    -5
+  Pool:Owed:mike
+2016-04-25 Fine Week 133
+  User:mikek    -5
+  Pool:Owed:mikek
+2016-04-25 Fine Week 133
+  User:mjanes    -5
+  Pool:Owed:mjanes
+2016-04-25 Fine Week 133
+  User:thisisparker    -5
+  Pool:Owed:thisisparker
