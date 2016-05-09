@@ -38,6 +38,7 @@ matt:
   - [Matt Spitz, 'http://mattspitz.me/', 'http://mattspitz.me/feed.xml']
   start: 2014/12/27
 megan:
+  end: '2016-05-02'
   links:
   - [the lovely ponder, 'https://thelovelyponder.wordpress.com/', 'https://thelovelyponder.wordpress.com/feed']
   start: 2016/02/04
@@ -50,6 +51,7 @@ mikek:
   - [Mocking Eye, 'http://mockingeye.com/', 'http://mockingeye.com/atom.xml']
   start: 2014/12/27
 mjanes:
+  end: '2016-04-27'
   links:
   - [What's The Worst That Could Happen, 'http://www.mjanes.com/', 'http://www.mjanes.com/feeds/posts/default']
   start: 2016/01/31
