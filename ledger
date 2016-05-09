@@ -368,3 +368,7 @@
 2016-05-02 Punt
   Pool:Owed:megan  -35.0
   User:megan
+
+2016-05-02 Payment
+  Pool:Owed:maira    -30
+  Pool:Paid
