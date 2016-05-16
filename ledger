@@ -372,3 +372,34 @@
 2016-05-02 Payment
   Pool:Owed:maira    -30
   Pool:Paid
+2016-05-02 Payment
+  Pool:Owed:christine    -10
+  Pool:Paid
+2016-05-02 Payment
+  Pool:Owed:thisisparker    -30
+  Pool:Paid
+2016-05-02 Payment
+  Pool:Owed:mikek    -30
+  Pool:Paid
+
+2016-05-16 Fine Week 136
+  User:issac    -5
+  Pool:Owed:issac
+2016-05-16 Fine Week 136
+  User:jeremy    -5
+  Pool:Owed:jeremy
+2016-05-16 Fine Week 136
+  User:jtfoote    -5
+  Pool:Owed:jtfoote
+2016-05-16 Fine Week 136
+  User:maira    -5
+  Pool:Owed:maira
+2016-05-16 Fine Week 136
+  User:mikek    -5
+  Pool:Owed:mikek
+2016-05-16 Fine Week 136
+  User:randylubin    -5
+  Pool:Owed:randylubin
+2016-05-16 Fine Week 136
+  User:thisisparker    -5
+  Pool:Owed:thisisparker
