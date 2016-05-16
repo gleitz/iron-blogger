@@ -370,16 +370,10 @@
   User:megan
 
 2016-05-02 Payment
-  Pool:Owed:maira    -30
-  Pool:Paid
-2016-05-02 Payment
   Pool:Owed:christine    -10
   Pool:Paid
 2016-05-02 Payment
   Pool:Owed:thisisparker    -30
-  Pool:Paid
-2016-05-02 Payment
-  Pool:Owed:mikek    -30
   Pool:Paid
 
 2016-05-16 Fine Week 136
@@ -403,3 +397,7 @@
 2016-05-16 Fine Week 136
   User:thisisparker    -5
   Pool:Owed:thisisparker
+
+2016-05-16 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
