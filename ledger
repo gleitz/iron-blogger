@@ -443,3 +443,7 @@
 2016-05-30 Fine Week 138
   User:thisisparker    -5
   Pool:Owed:thisisparker
+
+2016-05-30 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
