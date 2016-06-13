@@ -43,6 +43,7 @@ megan:
   - [the lovely ponder, 'https://thelovelyponder.wordpress.com/', 'https://thelovelyponder.wordpress.com/feed']
   start: 2016/02/04
 mike:
+  end: '2016-06-06'
   links:
   - [Mike Makes Art Blog, 'http://mikemakesart.blogspot.com/', 'http://mikemakesart.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
