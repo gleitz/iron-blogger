@@ -520,3 +520,7 @@
 2016-06-20 Punt
   Pool:Owed:jtfoote  -35.0
   User:jtfoote
+
+2016-06-20 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
