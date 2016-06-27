@@ -7,6 +7,7 @@ docpopular:
   - [Doctor Popular, 'http://www.docpop.org/', 'http://www.docpop.org/feed/atom/']
   start: 2014/12/27
 gleitz:
+  end: '2016-06-20'
   links:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
   start: 2014/12/27
@@ -25,6 +26,7 @@ jeremy:
   - [a digital life, 'https://jeremybrooks.wordpress.com/', 'https://jeremybrooks.wordpress.com/feed/']
   start: 2016/01/24
 jtfoote:
+  end: '2016-06-20'
   links:
   - [waxing prolix, 'http://www.rotormind.com/blog/', 'http://www.rotormind.com/blog/feed/']
   start: 2014/12/27
