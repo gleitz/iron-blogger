@@ -35,8 +35,8 @@ maira:
   start: 2014/12/27
 matt:
   links:
-  - [I Like Turtles, 'http://mattspitz.net/', 'http://obs-blog.mattspitz.net/feed.xml']
-  - [Matt Spitz, 'http://mattspitz.me/', 'http://mattspitz.me/feed.xml']
+  - [I Like Turtles, 'https://mattspitz.net/', 'https://mattspitz.net/feed.xml']
+  - [Matt Spitz, 'https://mattspitz.me/', 'https://mattspitz.me/feed.xml']
   start: 2014/12/27
 megan:
   end: '2016-05-02'
