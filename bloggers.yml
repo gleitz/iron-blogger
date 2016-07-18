@@ -31,6 +31,7 @@ jtfoote:
   - [waxing prolix, 'http://www.rotormind.com/blog/', 'http://www.rotormind.com/blog/feed/']
   start: 2014/12/27
 maira:
+  end: '2016-07-11'
   links:
   - [maira's blog, 'http://mairasutton.net/', 'http://mairasutton.net/?feed=rss2']
   start: 2014/12/27
@@ -72,6 +73,7 @@ richa:
   - [richa, 'https://medium.com/@richaaaa/', 'https://medium.com/feed/@richaaaa']
   start: 2016/01/17
 thisisparker:
+  end: '2016-07-11'
   links:
   - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
   start: 2014/12/27
