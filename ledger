@@ -575,3 +575,7 @@
 2016-07-11 Punt
   Pool:Owed:thisisparker  -35.0
   User:thisisparker
+
+2016-07-11 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
