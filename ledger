@@ -535,10 +535,6 @@
   User:mikek    -5
   Pool:Owed:mikek
 
-2016-06-27 Punt
-  Pool:Owed:gleitz  -35.0
-  User:gleitz
-
 2016-07-11 Fine Week 144
   User:jeremy    -5
   Pool:Owed:jeremy
@@ -590,3 +586,7 @@
 2016-07-18 Punt
   Pool:Owed:mikek  -35.0
   User:mikek
+
+2016-07-25 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
