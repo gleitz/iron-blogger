@@ -587,6 +587,7 @@
   Pool:Owed:jeremy    -5
   Pool:Paid
 
+
 2016-08-01 Fine Week 147
   User:jeremy    -5
   Pool:Owed:jeremy
@@ -608,4 +609,6 @@
   User:natalie    -5
   Pool:Owed:natalie
 
-
+2016-08-08 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
