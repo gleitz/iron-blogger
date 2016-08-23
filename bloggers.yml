@@ -67,6 +67,7 @@ natalie:
 randylubin:
   links:
   - [Randy Lubin, 'http://blog.randylubin.com/', 'http://feeds.feedburner.com/randylubin?format=xml']
+  - [Diegetic Games, 'http://diegeticgames.com/blog/', 'http://diegeticgames.com/feed.xml']
   start: 2014/12/27
 richa:
   end: '2016-03-16'
