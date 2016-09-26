@@ -644,3 +644,13 @@
 2016-09-19 Payment
   Pool:Owed:gleitz    -30
   Pool:Paid
+
+2016-09-26 Fine Week 155
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2016-09-26 Fine Week 155
+  User:jeremy    -5
+  Pool:Owed:jeremy
+2016-09-26 Fine Week 155
+  User:randylubin    -5
+  Pool:Owed:randylubin
