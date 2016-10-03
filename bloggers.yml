@@ -65,6 +65,7 @@ natalie:
   - [natalie freed, 'http://www.nataliefreed.com/blog/', 'http://www.nataliefreed.com/feed/']
   start: 2016/01/15
 randylubin:
+  end: '2016-09-26'
   links:
   - [Randy Lubin, 'http://blog.randylubin.com/', 'http://feeds.feedburner.com/randylubin?format=xml']
   - [Diegetic Games, 'http://diegeticgames.com/blog/', 'http://diegeticgames.com/feed.xml']
