@@ -658,3 +658,7 @@
 2016-09-29 Payment
   Pool:Owed:jeremy    -10
   Pool:Paid
+
+2016-10-03 Fine Week 156
+  User:randylubin    -5
+  Pool:Owed:randylubin
