@@ -688,3 +688,7 @@
 2016-10-31 Payment
   Pool:Owed:mjanes    -15
   Pool:Paid
+
+2016-11-07 Fine Week 161
+  User:gleitz    -5
+  Pool:Owed:gleitz
