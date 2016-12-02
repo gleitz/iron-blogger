@@ -707,3 +707,6 @@
 2016-11-28 Fine Week 164
   User:jeremy    -5
   Pool:Owed:jeremy
+2016-11-28 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
