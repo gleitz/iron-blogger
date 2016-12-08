@@ -2,10 +2,6 @@ alex:
   links:
   - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
   start: 2016/12/03
-fauxmad:
-  links:
-  - [onomatomania, 'http://fauxmad.tumblr.com/', 'http://fauxmad.tumblr.com/rss']
-  start: 2016/12/03
 christine:
   links:
   - [Certainly Strange, 'http://www.certainly-strange.com/', 'http://www.certainly-strange.com/?feed=rss2']
@@ -14,6 +10,10 @@ docpopular:
   links:
   - [Doctor Popular, 'http://www.docpop.org/', 'http://www.docpop.org/feed/atom/']
   start: 2014/12/27
+fauxmad:
+  links:
+  - [onomatomania, 'http://fauxmad.tumblr.com/', 'http://fauxmad.tumblr.com/rss']
+  start: 2016/12/03
 gleitz:
   links:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
