@@ -1,3 +1,11 @@
+alex:
+  links:
+  - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
+  start: 2016/12/03
+fauxmad:
+  links:
+  - [onomatomania, 'http://fauxmad.tumblr.com/', 'http://fauxmad.tumblr.com/rss']
+  start: 2016/12/03
 christine:
   links:
   - [Certainly Strange, 'http://www.certainly-strange.com/', 'http://www.certainly-strange.com/?feed=rss2']
@@ -20,6 +28,10 @@ jason:
   links:
   - [Jason Baldwin, 'http://jasonsbaldwin.blogspot.com/', 'http://jasonsbaldwin.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
+jenna:
+  links:
+  - [Rumblings, 'http://www.jennasteely.com/blog/', 'http://www.jennasteely.com/blog?format=RSS']
+  start: 2016/12/03
 jeremy:
   links:
   - [a digital life, 'https://jeremybrooks.wordpress.com/', 'https://jeremybrooks.wordpress.com/feed/']
@@ -64,6 +76,10 @@ natalie:
   links:
   - [natalie freed, 'http://www.nataliefreed.com/blog/', 'http://www.nataliefreed.com/feed/']
   start: 2016/01/15
+phdconfidential:
+  links:
+  - [PhD Confidential, 'https://medium.com/@phdconfidential', 'https://medium.com/feed/@phdconfidential']
+  start: 2016/12/03
 randylubin:
   end: '2016-09-26'
   links:
@@ -81,10 +97,10 @@ thisisparker:
   - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
   start: 2014/12/27
 vivek:
-  end: '2016-02-29'
   links:
   - [personal inventory, 'http://personalinventory.tumblr.com/', 'http://personalinventory.tumblr.com/rss']
   - [pedantree, 'http://pedantree.tumblr.com/', 'http://pedantree.tumblr.com/rss']
+  - [The New Vivek, 'https://medium.com/@thenewvivek', 'https://medium.com/feed/@thenewvivek']
   start: 2014/12/27
 xtinasri:
   end: '2016-03-14'
