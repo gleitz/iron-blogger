@@ -706,3 +706,16 @@
 2016-11-28 Payment
   Pool:Owed:jeremy    -5
   Pool:Paid
+
+2016-12-12 Fine Week 166
+  User:christine    -5
+  Pool:Owed:christine
+2016-12-12 Fine Week 166
+  User:fauxmad    -5
+  Pool:Owed:fauxmad
+2016-12-12 Fine Week 166
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2016-12-12 Fine Week 166
+  User:vivek    -5
+  Pool:Owed:vivek
