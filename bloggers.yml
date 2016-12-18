@@ -36,6 +36,10 @@ jeremy:
   links:
   - [a digital life, 'https://jeremybrooks.wordpress.com/', 'https://jeremybrooks.wordpress.com/feed/']
   start: 2016/01/24
+joe:
+  links:
+  - [Planet JC, 'https://medium.com/@joeconte', 'https://medium.com/feed/@joeconte']
+  start: 2016/12/10
 jtfoote:
   end: '2016-06-20'
   links:
