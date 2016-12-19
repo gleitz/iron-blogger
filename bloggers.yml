@@ -21,7 +21,7 @@ gleitz:
 issac:
   end: '2016-05-16'
   links:
-  - [Issac Kelly, 'https://www.issackelly.com/blog/', 'https://www.issackelly.com/blog/.xml']
+  - [Issac Kelly, 'https://www.issackelly.com/blog/', 'http://vault.ruselaboratories.com/proxy-url?url=https://www.issackelly.com/blog/.xml']
   start: 2016/01/23
 jason:
   end: '2016-03-21'
@@ -34,11 +34,11 @@ jenna:
   start: 2016/12/03
 jeremy:
   links:
-  - [a digital life, 'https://jeremybrooks.wordpress.com/', 'https://jeremybrooks.wordpress.com/feed/']
+  - [a digital life, 'https://jeremybrooks.wordpress.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://jeremybrooks.wordpress.com/feed/']
   start: 2016/01/24
 joe:
   links:
-  - [Planet JC, 'https://medium.com/@joeconte', 'https://medium.com/feed/@joeconte']
+  - [Planet JC, 'https://medium.com/@joeconte', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@joeconte']
   start: 2016/12/10
 jtfoote:
   end: '2016-06-20'
@@ -52,17 +52,17 @@ maira:
   start: 2014/12/27
 matt:
   links:
-  - [I Like Turtles, 'https://mattspitz.net/', 'https://mattspitz.net/feed.xml']
-  - [Matt Spitz, 'https://mattspitz.me/', 'https://mattspitz.me/feed.xml']
+  - [I Like Turtles, 'https://mattspitz.net/', 'http://vault.ruselaboratories.com/proxy-url?url=https://mattspitz.net/feed.xml']
+  - [Matt Spitz, 'https://mattspitz.me/', 'http://vault.ruselaboratories.com/proxy-url?url=https://mattspitz.me/feed.xml']
   start: 2014/12/27
 megan:
   end: '2016-05-02'
   links:
-  - [the lovely ponder, 'https://thelovelyponder.wordpress.com/', 'https://thelovelyponder.wordpress.com/feed']
+  - [the lovely ponder, 'https://thelovelyponder.wordpress.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://thelovelyponder.wordpress.com/feed']
   start: 2016/02/04
 michelle:
   links:
-  - [meninx, 'https://medium.com/@meninx', 'https://medium.com/feed/@meninx']
+  - [meninx, 'https://medium.com/@meninx', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@meninx']
   start: 2016/12/03
 mike:
   end: '2016-07-25'
@@ -86,7 +86,7 @@ natalie:
   start: 2016/01/15
 phdconfidential:
   links:
-  - [PhD Confidential, 'https://medium.com/@phdconfidential', 'https://medium.com/feed/@phdconfidential']
+  - [PhD Confidential, 'https://medium.com/@phdconfidential', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@phdconfidential']
   start: 2016/12/03
 randylubin:
   end: '2016-09-26'
@@ -97,7 +97,7 @@ randylubin:
 richa:
   end: 2016/03/08
   links:
-  - [richa, 'https://medium.com/@richaaaa/', 'https://medium.com/feed/@richaaaa']
+  - [richa, 'https://medium.com/@richaaaa/', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@richaaaa']
   start: 2016/01/17
 thisisparker:
   end: '2016-07-11'
@@ -109,7 +109,7 @@ vivek:
   links:
   - [personal inventory, 'http://personalinventory.tumblr.com/', 'http://personalinventory.tumblr.com/rss']
   - [pedantree, 'http://pedantree.tumblr.com/', 'http://pedantree.tumblr.com/rss']
-  - [The New Vivek, 'https://medium.com/@thenewvivek', 'https://medium.com/feed/@thenewvivek']
+  - [The New Vivek, 'https://medium.com/@thenewvivek', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@thenewvivek']
   start: 2014/12/27
 xtinasri:
   end: '2016-03-14'
