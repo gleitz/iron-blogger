@@ -740,3 +740,7 @@
 2016-12-20 Payment
   Pool:Owed:christine    -20
   Pool:Paid
+
+2016-12-26 Fine Week 168
+  User:alex    -5
+  Pool:Owed:alex
