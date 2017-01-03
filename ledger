@@ -747,3 +747,7 @@
 2017-01-02 Fine Week 169
   User:michelle    -5
   Pool:Owed:michelle
+
+2017-01-01 Payment
+  Pool:Owed:randylubin    -30
+  Pool:Paid
