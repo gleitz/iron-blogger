@@ -101,6 +101,7 @@ richa:
 selene:
   links:
   - [Selena Ross, 'http://selenaross.com', 'http://selenaross.com/feed/']
+  - [Selena Ross, 'https://catastrophedarling.tumblr.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://catastrophedarling.tumblr.com/rss']
   start: 2017/01/01
 thisisparker:
   end: '2016-07-11'
