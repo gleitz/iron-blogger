@@ -751,3 +751,13 @@
 2017-01-01 Payment
   Pool:Owed:randylubin    -35
   Pool:Paid
+
+2017-01-09 Fine Week 170
+  User:joe    -5
+  Pool:Owed:joe
+2017-01-09 Fine Week 170
+  User:michelle    -5
+  Pool:Owed:michelle
+2017-01-09 Fine Week 170
+  User:selene    -5
+  Pool:Owed:selene
