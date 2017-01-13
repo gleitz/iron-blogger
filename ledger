@@ -724,8 +724,8 @@
   User:fauxmad    -5
   Pool:Owed:fauxmad
 2016-12-19 Fine Week 167
-  User:michelle    -5
-  Pool:Owed:michelle
+  User:meninx    -5
+  Pool:Owed:meninx
 
 2016-12-20 Payment
   Pool:Owed:gleitz    -25
@@ -745,8 +745,8 @@
   Pool:Owed:alex
 
 2017-01-02 Fine Week 169
-  User:michelle    -5
-  Pool:Owed:michelle
+  User:meninx    -5
+  Pool:Owed:meninx
 
 2017-01-01 Payment
   Pool:Owed:randylubin    -35
@@ -756,8 +756,11 @@
   User:joe    -5
   Pool:Owed:joe
 2017-01-09 Fine Week 170
-  User:michelle    -5
-  Pool:Owed:michelle
+  User:meninx    -5
+  Pool:Owed:meninx
 2017-01-09 Payment
   Pool:Owed:vivek    -30
+  Pool:Paid
+2017-01-13 Payment
+  Pool:Owed:meninx    -15
   Pool:Paid
