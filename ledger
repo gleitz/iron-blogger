@@ -764,3 +764,7 @@
 2017-01-13 Payment
   Pool:Owed:meninx    -15
   Pool:Paid
+
+2017-01-16 Fine Week 171
+  User:fauxmad    -5
+  Pool:Owed:fauxmad
