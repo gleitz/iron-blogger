@@ -759,7 +759,7 @@
   User:meninx    -5
   Pool:Owed:meninx
 2017-01-12 Drinkup at Trappist
-  Pool:Paid    $-117
+  Pool:Paid    -117
   Drinkup
 2017-01-13 Payment
   Pool:Owed:meninx    -15
