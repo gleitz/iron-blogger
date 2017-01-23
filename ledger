@@ -771,3 +771,7 @@
 2017-01-16 Payment
   Pool:Owed:joe    -5
   Pool:Paid
+
+2017-01-23 Fine Week 172
+  User:fauxmad    -5
+  Pool:Owed:fauxmad
