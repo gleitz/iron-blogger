@@ -100,6 +100,7 @@ richa:
   - [richa, 'https://medium.com/@richaaaa/', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@richaaaa']
   start: 2016/01/17
 robert:
+  end: '2017-04-17'
   links:
   - [richa, 'http://activepoet.com/', 'http://activepoet.com/feed/']
   start: 2017/03/03
