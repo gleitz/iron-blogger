@@ -892,3 +892,23 @@
 2017-04-17 Fine Week 184
   User:robert    -5
   Pool:Owed:robert
+
+2017-04-17 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
+2017-04-17 Payment
+  Pool:Owed:gleitz    -5
+  Pool:Paid
+2017-04-17 Payment
+  Pool:Owed:meninx    -25
+  Pool:Paid
+
+2017-04-24 Fine Week 185
+  User:alex    -5
+  Pool:Owed:alex
+2017-04-24 Fine Week 185
+  User:phdconfidential    -5
+  Pool:Owed:phdconfidential
+2017-04-24 Fine Week 185
+  User:robert    -5
+  Pool:Owed:robert
