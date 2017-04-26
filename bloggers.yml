@@ -1,4 +1,4 @@
-alex:
+lex:
   links:
   - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
   start: 2016/12/03
@@ -86,6 +86,7 @@ natalie:
   - [natalie freed, 'http://www.nataliefreed.com/blog/', 'http://www.nataliefreed.com/feed/']
   start: 2016/01/15
 phdconfidential:
+  end: 2017/04/21
   links:
   - [PhD Confidential, 'https://medium.com/@phdconfidential', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@phdconfidential']
   start: 2016/12/03
