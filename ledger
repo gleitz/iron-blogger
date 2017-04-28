@@ -916,3 +916,6 @@
 2017-04-17 Punt
   Pool:Owed:robert  -35.0
   User:robert
+2017-04-24 Payment
+  Pool:Owed:alex    -25
+  Pool:Paid

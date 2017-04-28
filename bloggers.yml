@@ -1,7 +1,3 @@
-lex:
-  links:
-  - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
-  start: 2016/12/03
 christine:
   links:
   - [Certainly Strange, 'http://www.certainly-strange.com/', 'http://www.certainly-strange.com/?feed=rss2']
@@ -46,6 +42,10 @@ jtfoote:
   links:
   - [waxing prolix, 'http://www.rotormind.com/blog/', 'http://www.rotormind.com/blog/feed/']
   start: 2014/12/27
+lex:
+  links:
+  - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
+  start: 2016/12/03
 maira:
   end: '2016-07-11'
   links:
