@@ -1062,3 +1062,7 @@
 2017-07-24 Fine Week 198
   User:selene    -5
   Pool:Owed:selene
+
+2017-07-24 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
