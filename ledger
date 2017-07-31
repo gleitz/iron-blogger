@@ -1066,3 +1066,11 @@
 2017-07-24 Payment
   Pool:Owed:jeremy    -5
   Pool:Paid
+
+2017-07-24 Payment
+  Pool:Owed:gleitz    -25
+  Pool:Paid
+
+2017-07-24 Payment
+  Pool:Owed:selene    -20
+  Pool:Paid
