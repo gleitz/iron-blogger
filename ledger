@@ -1094,3 +1094,7 @@
 2017-07-31 Payment
   Pool:Owed:jeremy    -5
   Pool:Paid
+
+2017-08-07 Fine Week 200
+  User:jenna    -5
+  Pool:Owed:jenna
