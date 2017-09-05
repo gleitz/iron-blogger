@@ -1131,6 +1131,6 @@
   User:selene    -5
   Pool:Owed:selene
 
-2017-08-28 Punt
-  Pool:Owed:matt  -35.0
-  User:matt
+2017-08-28 Payment
+  Pool:Owed:matt    -35
+  Pool:Paid

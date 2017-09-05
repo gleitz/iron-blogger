@@ -54,7 +54,6 @@ maira:
   - [maira's blog, 'http://mairasutton.net/', 'http://mairasutton.net/?feed=rss2']
   start: 2014/12/27
 matt:
-  end: '2017-08-28'
   links:
   - [I Like Turtles, 'https://mattspitz.net/', 'http://vault.ruselaboratories.com/proxy-url?url=https://mattspitz.net/feed.xml']
   - [Matt Spitz, 'https://mattspitz.me/', 'http://vault.ruselaboratories.com/proxy-url?url=https://mattspitz.me/feed.xml']
