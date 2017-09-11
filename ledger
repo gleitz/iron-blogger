@@ -1134,3 +1134,9 @@
 2017-08-28 Payment
   Pool:Owed:matt    -35
   Pool:Paid
+2017-09-11 Fine Week 205
+  User:lex    -5
+  Pool:Owed:lex
+2017-09-11 Fine Week 205
+  User:randylubin    -5
+  Pool:Owed:randylubin
