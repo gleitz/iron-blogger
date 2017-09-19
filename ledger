@@ -1151,3 +1151,7 @@
 2017-09-18 Fine Week 206
   User:lex    -5
   Pool:Owed:lex
+
+2017-09-18 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
