@@ -1176,3 +1176,10 @@
 2017-10-02 Payment
   Pool:Owed:jeremy    -5
   Pool:Paid
+
+2017-10-09 Fine Week 209
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2017-10-09 Fine Week 209
+  User:trip    -5
+  Pool:Owed:trip
