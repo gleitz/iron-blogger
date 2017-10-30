@@ -1208,9 +1208,6 @@
   User:lex    -5
   Pool:Owed:lex
 2017-10-30 Fine Week 212
-  User:randylubin    -5
-  Pool:Owed:randylubin
-2017-10-30 Fine Week 212
   User:selene    -5
   Pool:Owed:selene
 2017-10-30 Fine Week 212
@@ -1223,3 +1220,6 @@
 2017-10-23 Punt
   Pool:Owed:selene  -35.0
   User:selene
+2017-10-30 Payment
+  Pool:Owed:jeremy    -5
+  Pool:Paid
