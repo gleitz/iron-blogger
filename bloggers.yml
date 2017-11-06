@@ -121,6 +121,7 @@ thisisparker:
   - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
   start: 2014/12/27
 trip:
+  end: '2017-10-30'
   links:
   - [Tripish, 'https://medium.com/@tripish', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/@tripish']
   start: 2017/09/09
