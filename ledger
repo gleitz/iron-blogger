@@ -1223,3 +1223,13 @@
 2017-10-30 Payment
   Pool:Owed:jeremy    -5
   Pool:Paid
+
+2017-11-06 Fine Week 213
+  User:christine    -5
+  Pool:Owed:christine
+2017-11-06 Fine Week 213
+  User:randylubin    -5
+  Pool:Owed:randylubin
+2017-11-06 Fine Week 213
+  User:trip    -5
+  Pool:Owed:trip
