@@ -26,7 +26,6 @@ jason:
   - [Jason Baldwin, 'http://jasonsbaldwin.blogspot.com/', 'http://jasonsbaldwin.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
 jenna:
-  end: '2017-08-07'
   links:
   - [Rumblings, 'http://www.jennasteely.com/blog/', 'http://www.jennasteely.com/blog?format=RSS']
   start: 2016/12/03
@@ -44,8 +43,7 @@ jtfoote:
   links:
   - [waxing prolix, 'http://www.rotormind.com/blog/', 'http://www.rotormind.com/blog/feed/']
   start: 2014/12/27
-lex:
-  end: '2017-10-23'
+alex:
   links:
   - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
   start: 2016/12/03
@@ -75,7 +73,6 @@ mike:
   - [Mike Makes Art Blog, 'http://mikemakesart.blogspot.com/', 'http://mikemakesart.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
 mikek:
-  end: '2016-07-18'
   links:
   - [Mocking Eye, 'http://mockingeye.com/', 'http://mockingeye.com/atom.xml']
   start: 2014/12/27
@@ -126,7 +123,6 @@ trip:
   - [Tripish, 'https://medium.com/@tripish', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/@tripish']
   start: 2017/09/09
 vivek:
-  end: '2017-06-05'
   links:
   - [personal inventory, 'http://personalinventory.tumblr.com/', 'http://personalinventory.tumblr.com/rss']
   - [pedantree, 'http://pedantree.tumblr.com/', 'http://pedantree.tumblr.com/rss']
