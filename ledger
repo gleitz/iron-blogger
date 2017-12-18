@@ -1238,7 +1238,7 @@
   Pool:Owed:gleitz
 
 2017-12-16 Payment
-  Pool:Owed:jenna    -30
+  Pool:Owed:jenna    -35
   Pool:Paid
 
 2017-12-16 Payment
@@ -1250,15 +1250,27 @@
   Pool:Paid
 
 2017-12-16 Payment
-  Pool:Owed:alex    -20
+  Pool:Owed:mikek    -5
   Pool:Paid
 
 2017-12-16 Payment
-  Pool:Owed:mikek    -20
+  Pool:Owed:vivek    -35
   Pool:Paid
 
 2017-12-16 Payment
-  Pool:Owed:vivek    -30
+  Pool:Owed:matt    -10
+  Pool:Paid
+
+2017-12-16 Payment
+  Pool:Owed:docpopular    -10
+  Pool:Paid
+
+2017-12-16 Payment
+  Pool:Owed:christine    -10
+  Pool:Paid
+
+2017-12-16 Payment
+  Pool:Owed:randylubin    -15
   Pool:Paid
 
 2017-12-18 Fine Week 219
