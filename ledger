@@ -1280,3 +1280,16 @@
 2017-12-11 Punt
   Pool:Owed:lex  -35.0
   User:lex
+
+2017-12-25 Fine Week 220
+  User:alex    -5
+  Pool:Owed:alex
+2017-12-25 Fine Week 220
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2017-12-25 Fine Week 220
+  User:mikek    -5
+  Pool:Owed:mikek
+2017-12-25 Fine Week 220
+  User:vivek    -5
+  Pool:Owed:vivek
