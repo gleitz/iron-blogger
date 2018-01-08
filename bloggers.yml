@@ -107,7 +107,6 @@ robert:
   - [richa, 'http://activepoet.com/', 'http://activepoet.com/feed/']
   start: 2017/03/03
 selene:
-  end: '2017-10-23'
   links:
   - [Selena Ross, 'https://catastrophedarling.tumblr.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://catastrophedarling.tumblr.com/rss']
   - [Selena Ross, 'http://selenaross.com', 'http://selenaross.com/feed/']
