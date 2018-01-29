@@ -1342,3 +1342,7 @@
 2018-01-29 Fine Week 225
   User:vivek    -5
   Pool:Owed:vivek
+
+2018-01-29 Payment
+  Pool:Owed:matt    -5
+  Pool:Paid
