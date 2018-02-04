@@ -128,7 +128,7 @@ vivek:
   - [The New Vivek, 'https://medium.com/@thenewvivek', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@thenewvivek']
   start: 2014/12/27
 xtinasri:
-  end: '2016-03-14'
   links:
   - [xtinasri, xtinasri.tumblr.com, 'http://xtinasri.tumblr.com/rss']
+  - [sfdatenight, 'https://www.sfdatenight.com', 'http://vault.ruselaboratories.com/proxy-url?url=https://www.sfdatenight.com/date-ideas?format=RSS']
   start: 2015/09/14
