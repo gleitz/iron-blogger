@@ -1349,3 +1349,16 @@
 2018-01-29 Payment
   Pool:Owed:xtinasri    -35
   Pool:Paid
+
+2018-02-05 Fine Week 226
+  User:alex    -5
+  Pool:Owed:alex
+2018-02-05 Fine Week 226
+  User:gleitz    -5
+  Pool:Owed:gleitz
+2018-02-05 Fine Week 226
+  User:mikek    -5
+  Pool:Owed:mikek
+2018-02-05 Fine Week 226
+  User:xtinasri    -5
+  Pool:Owed:xtinasri
