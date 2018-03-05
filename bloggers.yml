@@ -24,6 +24,7 @@ kevnika:
 raymarea:
   links:
   - ['https://raymareas.wordpress.com/', 'https://raymareas.workpress.com/rss']
+  start: 2018/3/2
 melani:
   links:
   - []
