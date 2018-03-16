@@ -16,11 +16,12 @@ jalen:
   start:
 michael:
   links:
-  - []
-  start:
+  - ['https://devilman670818061.wordpress.com/', 'https://devilman670818061.wordpress.com/rss']
+  start: 2018/3/16
 kevnika:
   links:
-  - []
+  - ['https://nikasworld854643661.wordpress.com', 'https://nikasworld854643661.wordpress.com/rss']
+  start: 2018/3/16
 raymarea:
   links:
   - ['https://raymareas.wordpress.com/', 'https://raymareas.workpress.com/rss']
