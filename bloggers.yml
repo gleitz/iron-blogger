@@ -123,6 +123,7 @@ trip:
   - [Tripish, 'https://medium.com/@tripish', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/@tripish']
   start: 2017/09/09
 vivek:
+  end: '2018-03-12'
   links:
   - [personal inventory, 'http://personalinventory.tumblr.com/', 'http://personalinventory.tumblr.com/rss']
   - [pedantree, 'http://pedantree.tumblr.com/', 'http://pedantree.tumblr.com/rss']
