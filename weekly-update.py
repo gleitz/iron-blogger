@@ -87,7 +87,7 @@ def generate_email():
     if dry_run:
         print email
     else:
-        send_email('iron-blogger-sf@googlegroups.com', email)
+        send_email('gleitz@mit.edu', email)
 
     with open('out/email.txt', 'w') as f:
         f.write(email)

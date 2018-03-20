@@ -2,6 +2,7 @@
 import yaml
 import feedparser
 import datetime
+import os
 import sys
 from dateutil.parser import parse
 import dateutil.tz as tz
@@ -10,6 +11,8 @@ with open('bloggers.yml') as f:
     users = yaml.safe_load(f.read())
 
 try:
+    if not os.path.exists('out'):
+        os.makedirs('out') 
     with open('out/report.yml') as f:
         log = yaml.safe_load(f.read())
 except IOError:

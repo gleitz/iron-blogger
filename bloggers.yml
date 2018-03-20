@@ -1,37 +1,24 @@
-donte:
-  links:
-  - [Sponky, 'http://imsponkyasf.wordpress.com/', 'http://imsponkyasf.wordpress.com/rss']
-  start: 2018/3/1
 danayah:
   links:
   - [Teen Fashion, 'https://teenfashion770139272.wordpress.com/', 'https://teenfashion770139272.wordpress.com/rss']
   start: 2018/3/1
-monae:
+donte:
   links:
-  - [Fashion and Boys, 'https://fashionandboys.wordpress.com/', 'https://fashionandboys.wordpress.com/rss']
+  - [Sponky, 'http://imsponkyasf.wordpress.com/', 'http://imsponkyasf.wordpress.com/rss']
   start: 2018/3/1
-jalen:
-  links:
-  - []
-  start:
-michael:
-  links:
-  - ['https://devilman670818061.wordpress.com/', 'https://devilman670818061.wordpress.com/rss']
-  start: 2018/3/16
 kevnika:
   links:
   - ['https://nikasworld854643661.wordpress.com', 'https://nikasworld854643661.wordpress.com/rss']
   start: 2018/3/16
+michael:
+  links:
+  - ['https://devilman670818061.wordpress.com/', 'https://devilman670818061.wordpress.com/rss']
+  start: 2018/3/16
+monae:
+  links:
+  - [Fashion and Boys, 'https://fashionandboys.wordpress.com/', 'https://fashionandboys.wordpress.com/rss']
+  start: 2018/3/1
 raymarea:
   links:
-  - ['https://raymareas.wordpress.com/', 'https://raymareas.workpress.com/rss']
+  - ['https://raymareas.wordpress.com/', 'https://raymareas.wordpress.com/rss']
   start: 2018/3/2
-melani:
-  links:
-  - []
-jose:
-  links:
-  - []
-ikieria
-  links:
-  - []

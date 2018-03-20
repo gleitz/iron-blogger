@@ -12,6 +12,7 @@ with open('bloggers.yml') as f:
 
 
 def fetch_links(url):
+    print url
     req = urllib2.Request(url, headers=HEADERS)
     tree = html.fromstring(urllib2.urlopen(req).read())
     links = tree.xpath(

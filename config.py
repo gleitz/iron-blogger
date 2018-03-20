@@ -8,7 +8,7 @@ import subprocess
 HERE  = os.path.dirname(__file__)
 START = datetime.datetime(2013, 9, 30, 6)
 
-XMLRPC_ENDPOINT = 'http://iron-blogger-sf.com/xmlrpc.php'
+XMLRPC_ENDPOINT = 'http://wabi-sabi-blogger.com/xmlrpc.php'
 USER            = 'admin'
 BLOG_ID         = 1
 PARTICIPANTS_PAGE_ID = 55
