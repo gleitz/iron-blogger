@@ -75,12 +75,12 @@ def generate_email():
 
         page = dict(title = title, description = body)
 
-        with open('secret.txt', 'r') as f:
-            secret = json.load(f)
-            passwd = secret['wordpress']['password']
+        #with open('secret.txt', 'r') as f:
+        #    secret = json.load(f)
+        #    passwd = secret['wordpress']['password']
 
-        x = xmlrpclib.ServerProxy(XMLRPC_ENDPOINT)
-        x.metaWeblog.newPost(BLOG_ID, USER, passwd, page, True)
+        #x = xmlrpclib.ServerProxy(XMLRPC_ENDPOINT)
+        #x.metaWeblog.newPost(BLOG_ID, USER, passwd, page, True)
 
     email = render.render_template('templates/email.html', date, punt=punt)
 

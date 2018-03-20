@@ -33,21 +33,8 @@
 </ul>
 % endif
 
-<p>Beer pool:<p>
-<ul>
-    <li>This week: ${currency}${fine * len(lame)}.00</li>
-    <li>Total:     ${currency}${pool}</li>
-</ul>
-
-<p>Individual debts:</p>
-<ul>
-% for (u, v) in sorted(debts, key=lambda p:p[1], reverse=True):
-<li>${u} ${currency}${v}</li>
-% endfor
-</ul>
-
 % if punted:
-<p>PREVIOUSLY PUNTED (pay ${currency}${fine * 6} balance to return):</p>
+<p>PREVIOUSLY PUNTED:</p>
 <ul>
 % for (u) in sorted(punted, key=lambda p:p.username):
 <li>${"%20s (%s)" % (u.username, u.end)}</li>
