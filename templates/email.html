@@ -5,8 +5,12 @@
 <p>People who posted:</p>
 <ul>
 % for u in sorted(good, key=lambda u:u.username):
-    % for p in u.weeks[week]:
-    <li><img src="https://mail.google.com/mail/e/B60" goomoji="B60" style="margin:0px 0.2ex;vertical-align:middle"> ${u.username} - <a href="${p['url']}">${p['title']}</a></li>
+    % for week in u.weeks:
+        % if week:
+           % for p in week:
+                   <li><img src="https://mail.google.com/mail/e/B60" goomoji="B60" style="margin:0px 0.2ex;vertical-align:middle"> ${u.username} - <a href="${p['url']}">${p['title']}</a></li>
+           % endfor
+        % endif
     % endfor
 % endfor
 </ul>

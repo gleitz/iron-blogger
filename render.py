@@ -70,8 +70,13 @@ def render_template(path, week=None, **kwargs):
         week = START
 
     week = (week - START).days / 7
-    week_start = START + (week * datetime.timedelta(7))
+    week_start = START + ((week - 5) * datetime.timedelta(7))
     week_end   = START + ((week + 1) * datetime.timedelta(7))
+
+    print START
+    print week
+    print week_start
+    print week_end
 
     good = []
     lame = []
@@ -104,15 +109,20 @@ def render_template(path, week=None, **kwargs):
     punted.sort(key=user_key)
 
     for u in userlist:
+        print 'weeks'
+        print u.weeks
         user_start = parse(u.start, default=START)
         if u.end and parse(u.end, default=START) <= week_start:
+            print 'continue at u.end'
             continue
 
         if should_skip(u.skip, week):
+            print 'should skip'
             pass
         elif user_start > week_start:
             skip.append(u)
-        elif len(u.weeks) <= week or not u.weeks[week]:
+        elif not [item for sublist in u.weeks for item in sublist]:
+        # elif len(u.weeks) <= week or not u.weeks[week]:
             lame.append(u)
         else:
             good.append(u)
