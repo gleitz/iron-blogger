@@ -8,7 +8,7 @@
     % for week in u.weeks:
         % if week:
            % for p in week:
-                   <li><img src="https://mail.google.com/mail/e/B60" goomoji="B60" style="margin:0px 0.2ex;vertical-align:middle"> ${u.username} - <a href="${p['url']}">${p['title']}</a></li>
+                   <li><img src="https://mail.google.com/mail/e/B60" goomoji="B60" style="margin:0px 0.2ex;vertical-align:middle"> ${u.username} - <a href="${p['url']}">${p['title'] or "[untitled post]"}</a></li>
            % endfor
         % endif
     % endfor
