@@ -9,11 +9,11 @@ donte:
 kevnika:
   links:
   - ['https://nikasworld854643661.wordpress.com', 'https://nikasworld854643661.wordpress.com/rss']
-  start: 2018/3/16
+  start: 2018/3/1
 michael:
   links:
   - ['https://devilman670818061.wordpress.com/', 'https://devilman670818061.wordpress.com/rss']
-  start: 2018/3/16
+  start: 2018/3/1
 monae:
   links:
   - [Fashion and Boys, 'https://fashionandboys.wordpress.com/', 'https://fashionandboys.wordpress.com/rss']
@@ -21,4 +21,4 @@ monae:
 raymarea:
   links:
   - ['https://raymareas.wordpress.com/', 'https://raymareas.wordpress.com/rss']
-  start: 2018/3/2
+  start: 2018/3/1
