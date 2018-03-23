@@ -5,9 +5,14 @@ Results for week beginning ${week_start.strftime("%F")}
 <dt><span class="user">${u.username}:</span></dt>
 <dd>
   <ul>
- % for p in u.weeks[week]:
-   <li><a href="${p['url']}">${p['title'] or "[untitled post]"}</a></li>
+% for week in u.weeks:
+    % if week:
+       % for p in week:
+          <li><a href="${p['url']}">${p['title'] or "[untitled post]"}</a></li>
+       % endfor
+    % endif
  % endfor
+
   </ul>
 </dd>
 % endfor

@@ -1,12 +1,16 @@
-<p>My dearest Iron Bloggers,</p>
+<p>My dearest Wildcats,</p>
 
-<p>Here are the standings for the week of ${week_start.strftime("%F")}. As a reminder, everyone is obliged to post at least one article before 6AM Monday morning. You can also <a href="iron-blogger-sf.com/planet/">subscribe</a> to a feed of all articles.</p>
+<p>The Wabi-Sabi Bloggers have published! Here are the standings for the publishing period of ${week_start.strftime("%F")}. As a reminder, everyone is obliged to post at least one article before 3:15 PM the last Friday of the month.</p>
 
 <p>People who posted:</p>
 <ul>
 % for u in sorted(good, key=lambda u:u.username):
-    % for p in u.weeks[week]:
-    <li><img src="https://mail.google.com/mail/e/B60" goomoji="B60" style="margin:0px 0.2ex;vertical-align:middle"> ${u.username} - <a href="${p['url']}">${p['title']}</a></li>
+    % for week in u.weeks:
+        % if week:
+           % for p in week:
+                   <li><img src="https://mail.google.com/mail/e/B60" goomoji="B60" style="margin:0px 0.2ex;vertical-align:middle"> ${u.username} - <a href="${p['url']}">${p['title'] or "[untitled post]"}</a></li>
+           % endfor
+        % endif
     % endfor
 % endfor
 </ul>
@@ -33,21 +37,8 @@
 </ul>
 % endif
 
-<p>Beer pool:<p>
-<ul>
-    <li>This week: ${currency}${fine * len(lame)}.00</li>
-    <li>Total:     ${currency}${pool}</li>
-</ul>
-
-<p>Individual debts:</p>
-<ul>
-% for (u, v) in sorted(debts, key=lambda p:p[1], reverse=True):
-<li>${u} ${currency}${v}</li>
-% endfor
-</ul>
-
 % if punted:
-<p>PREVIOUSLY PUNTED (pay ${currency}${fine * 6} balance to return):</p>
+<p>PREVIOUSLY PUNTED:</p>
 <ul>
 % for (u) in sorted(punted, key=lambda p:p.username):
 <li>${"%20s (%s)" % (u.username, u.end)}</li>
