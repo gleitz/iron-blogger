@@ -22,3 +22,11 @@ raymarea:
   links:
   - ['https://raymareas.wordpress.com/', 'https://raymareas.wordpress.com/rss']
   start: 2017/03/01
+melani:
+  links:
+  - ['https://tutyblog123.wordpress.com/', 'http://tutyblog123.wordpress.com/rss']
+  start: 2018/03/28
+jalen:
+  links:
+  - ['https://shadowmonkeysshadowandmonkeysite.wordpress.com/', 'https://shadowmonkeysshadowandmonkeysite.wordpress.com/rss']
+  start: 2018/3/28
