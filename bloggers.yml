@@ -6,13 +6,21 @@ donte:
   links:
   - [Sponky, 'http://imsponkyasf.wordpress.com/', 'http://imsponkyasf.wordpress.com/rss']
   start: 2017/03/01
+jalen:
+  links:
+  - [Shadow monkeys, 'https://shadowmonkeysshadowandmonkeysite.wordpress.com/', 'https://shadowmonkeysshadowandmonkeysite.wordpress.com/rss']
+  start: 2017/3/28
 kevnika:
   links:
-  - ['https://nikasworld854643661.wordpress.com', 'https://nikasworld854643661.wordpress.com/rss']
+  - [Nika's world, 'https://nikasworld854643661.wordpress.com', 'https://nikasworld854643661.wordpress.com/rss']
   start: 2017/03/01
+melani:
+  links:
+  - [Tuty, 'https://tutyblog123.wordpress.com/', 'http://tutyblog123.wordpress.com/rss']
+  start: 2017/03/28
 michael:
   links:
-  - ['https://devilman670818061.wordpress.com/', 'https://devilman670818061.wordpress.com/rss']
+  - [DevilMan, 'https://devilman670818061.wordpress.com/', 'https://devilman670818061.wordpress.com/rss']
   start: 2017/03/01
 monae:
   links:
@@ -20,13 +28,5 @@ monae:
   start: 2017/03/01
 raymarea:
   links:
-  - ['https://raymareas.wordpress.com/', 'https://raymareas.wordpress.com/rss']
+  - [Raymarea's blog, 'https://raymareas.wordpress.com/', 'https://raymareas.wordpress.com/rss']
   start: 2017/03/01
-melani:
-  links:
-  - ['https://tutyblog123.wordpress.com/', 'http://tutyblog123.wordpress.com/rss']
-  start: 2018/03/28
-jalen:
-  links:
-  - ['https://shadowmonkeysshadowandmonkeysite.wordpress.com/', 'https://shadowmonkeysshadowandmonkeysite.wordpress.com/rss']
-  start: 2018/3/28
