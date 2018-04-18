@@ -70,7 +70,7 @@ def render_template(path, week=None, **kwargs):
         week = START
 
     week = (week - START).days / 7
-    week_start = START + ((week - 5) * datetime.timedelta(7))
+    week_start = START + ((week - 1) * datetime.timedelta(7))
     week_end   = START + ((week + 1) * datetime.timedelta(7))
 
     print START
