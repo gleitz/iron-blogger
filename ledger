@@ -1457,10 +1457,6 @@
   User:xtinasri    -5
   Pool:Owed:xtinasri
 
-2018-04-16 Punt
-  Pool:Owed:gleitz  -35.0
-  User:gleitz
-
 2018-04-30 Fine Week 238
   User:xtinasri    -5
   Pool:Owed:xtinasri
@@ -1473,10 +1469,6 @@
   User:xtinasri    -5
   Pool:Owed:xtinasri
 
-2018-04-30 Punt
-  Pool:Owed:selene  -35.0
-  User:selene
-
 2018-05-14 Fine Week 240
   User:xtinasri    -5
   Pool:Owed:xtinasri
@@ -1488,3 +1480,11 @@
 2018-05-21 Fine Week 241
   User:xtinasri    -5
   Pool:Owed:xtinasri
+
+2018-05-21 Payment
+  Pool:Owed:gleitz    -30
+  Pool:Paid
+
+2018-05-21 Payment
+  Pool:Owed:selene    -30
+  Pool:Paid
