@@ -1488,3 +1488,13 @@
 2018-05-21 Payment
   Pool:Owed:selene    -30
   Pool:Paid
+
+2018-05-28 Fine Week 242
+  User:alex    -5
+  Pool:Owed:alex
+2018-05-28 Fine Week 242
+  User:christine    -5
+  Pool:Owed:christine
+2018-05-28 Fine Week 242
+  User:jenna    -5
+  Pool:Owed:jenna
