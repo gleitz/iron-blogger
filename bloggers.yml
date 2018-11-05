@@ -1,32 +1,16 @@
-danayah:
+cedric:
   links:
-  - [Teen Fashion, 'https://teenfashion770139272.wordpress.com/', 'https://teenfashion770139272.wordpress.com/rss']
-  start: 2017/03/01
-donte:
+  - [Cedricable, 'http://cedric.video.blog, 'http://cedric.video.blog/rss']
+  start: 2018/11/2
+thomas:
   links:
-  - [Sponky, 'http://imsponkyasf.wordpress.com/', 'http://imsponkyasf.wordpress.com/rss']
-  start: 2017/03/01
-jalen:
+  - [Dirthbikes and Weed, 'http://dirtbikesandweed.home.blog', 'http://dirtbikesandweed.home.blog/rss']
+  start: 2018/11/02
+adair:
   links:
-  - [Shadow monkeys, 'https://shadowmonkeysshadowandmonkeysite.wordpress.com/', 'https://shadowmonkeysshadowandmonkeysite.wordpress.com/rss']
-  start: 2017/3/28
-kevnika:
+  - ['https://animalslifesearch.wordpress.com/', 'https://animalslifesearch.wordpress.com/rss']
+  start: 2018/02/02
+joseph:
   links:
-  - [Nika's world, 'https://nikasworld854643661.wordpress.com', 'https://nikasworld854643661.wordpress.com/rss']
-  start: 2017/03/01
-melani:
-  links:
-  - [Tuty, 'https://tutyblog123.wordpress.com/', 'http://tutyblog123.wordpress.com/rss']
-  start: 2017/03/28
-michael:
-  links:
-  - [DevilMan, 'https://devilman670818061.wordpress.com/', 'https://devilman670818061.wordpress.com/rss']
-  start: 2017/03/01
-monae:
-  links:
-  - [Fashion and Boys, 'https://fashionandboys.wordpress.com/', 'https://fashionandboys.wordpress.com/rss']
-  start: 2017/03/01
-raymarea:
-  links:
-  - [Raymarea's blog, 'https://raymareas.wordpress.com/', 'https://raymareas.wordpress.com/rss']
-  start: 2017/03/01
+  -['https://myww689181662.wordpress.com/', 'https://myww689181662.wordpress.com/rss']
+  start: 2018/02/02
