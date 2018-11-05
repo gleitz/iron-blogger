@@ -1,16 +1,16 @@
-cedric:
-  links:
-  - [Cedricable, 'http://cedric.video.blog', 'http://cedric.video.blog/rss']
-  start: 2018/10/20
-thomas:
-  links:
-  - [Dirthbikes and Weed, 'http://dirtbikesandweed.home.blog', 'http://dirtbikesandweed.home.blog/rss']
-  start: 2018/10/20
 adair:
   links:
-  - ['https://animalslifesearch.wordpress.com/', 'https://animalslifesearch.wordpress.com/rss']
+  - ['https://animalslifesearch.wordpress.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://animalslifesearch.wordpress.com/feed/']
   start: 2018/02/02
+cedric:
+  links:
+  - [Cedricable, 'http://cedric.video.blog', 'http://vault.ruselaboratories.com/proxy-url?url=https://cedric.video.blog/feed/']
+  start: 2018/10/20
 joseph:
   links:
-  - ['https://myww689181662.wordpress.com/', 'https://myww689181662.wordpress.com/rss']
+  - ['https://myww689181662.wordpress.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://myww689181662.wordpress.com/feed/']
   start: 2018/02/02
+thomas:
+  links:
+  - [Dirthbikes and Weed, 'http://dirtbikesandweed.home.blog', 'http://vault.ruselaboratories.com/proxy-url?url=https://dirtbikesandweed.home.blog/feed/']
+  start: 2018/10/20
