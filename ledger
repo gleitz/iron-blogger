@@ -1621,20 +1621,13 @@
   Pool:Owed:gleitz  -35.0
   User:gleitz
 
-
-
-
-
-
-
 2018-12-10 Fine Week 270
   User:christine    -5
   Pool:Owed:christine
+
 2018-12-10 Fine Week 270
   User:docpopular    -5
   Pool:Owed:docpopular
-
-
 
 2018-12-11 Payment
   Pool:Owed:christine    -30
@@ -1644,6 +1637,18 @@
   User:jenna    -5
   Pool:Owed:jenna
 
+2019-01-12 Payment
+  Pool:Owed:docpopular    -15
+  Pool:Paid
 
+2019-01-12 Payment
+  Pool:Owed:jenna    -5
+  Pool:Paid
 
+2019-01-12 Payment
+  Pool:Owed:matt    -20
+  Pool:Paid
 
+2019-01-12 Payment
+  Pool:Owed:randylubin    -30
+  Pool:Paid
