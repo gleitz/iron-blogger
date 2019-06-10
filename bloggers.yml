@@ -32,6 +32,7 @@ jason:
   - [Jason Baldwin, 'http://jasonsbaldwin.blogspot.com/', 'http://jasonsbaldwin.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
 jenna:
+  end: '2019-06-03'
   links:
   - [Rumblings, 'http://jennavanhout.com/blog', 'http://www.jennavanhout.com/blog?format=RSS']
   start: 2016/12/03
