@@ -7,10 +7,6 @@ christine:
   links:
   - [Certainly Strange, 'http://www.certainly-strange.com/', 'http://www.certainly-strange.com/?feed=rss2']
   start: 2014/12/27
-willow:
-  links:
-  - [willowbl00, 'http://blog.bl00cyb.org', 'http://blog.bl00cyb.org/feed/']
-  start: 2019/06/17
 docpopular:
   links:
   - [Doctor Popular, 'http://www.docpop.org/', 'http://www.docpop.org/feed/atom/']
@@ -137,6 +133,10 @@ vivek:
   - [pedantree, 'http://pedantree.tumblr.com/', 'http://pedantree.tumblr.com/rss']
   - [The New Vivek, 'https://medium.com/@thenewvivek', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@thenewvivek']
   start: 2014/12/27
+willow:
+  links:
+  - [willowbl00, 'http://blog.bl00cyb.org', 'http://blog.bl00cyb.org/feed/']
+  start: 2019/06/17
 xtinasri:
   end: '2018-06-25'
   links:
