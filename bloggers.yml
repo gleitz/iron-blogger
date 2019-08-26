@@ -134,6 +134,7 @@ vivek:
   - [The New Vivek, 'https://medium.com/@thenewvivek', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@thenewvivek']
   start: 2014/12/27
 willow:
+  end: '2019-08-19'
   links:
   - [willowbl00, 'http://blog.bl00cyb.org', 'http://blog.bl00cyb.org/feed/']
   start: 2019/06/17
