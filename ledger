@@ -1882,6 +1882,7 @@
   User:christine    -5
   Pool:Owed:christine
 
-2019-12-16 Punt
-  Pool:Owed:christine  -35.0
-  User:christine
+
+2019-12-24 Payment
+  Pool:Owed:christine    -30
+  Pool:Paid
