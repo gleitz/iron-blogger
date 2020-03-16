@@ -1,5 +1,4 @@
 alex:
-  end: '2018-06-11'
   links:
   - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
   start: 2016/12/03
@@ -12,27 +11,22 @@ docpopular:
   - [Doctor Popular, 'http://www.docpop.org/', 'http://www.docpop.org/feed/atom/']
   start: 2014/12/27
 fauxmad:
-  end: '2017-06-12'
   links:
   - [onomatomania, 'http://fauxmad.tumblr.com/', 'http://fauxmad.tumblr.com/rss']
   start: 2016/12/03
 gleitz:
-  end: '2018-09-10'
   links:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
   start: 2014/12/27
 issac:
-  end: '2016-05-16'
   links:
   - [Issac Kelly, 'https://www.issackelly.com/blog/', 'http://vault.ruselaboratories.com/proxy-url?url=https://www.issackelly.com/blog/.xml']
   start: 2016/01/23
 jason:
-  end: '2016-03-21'
   links:
   - [Jason Baldwin, 'http://jasonsbaldwin.blogspot.com/', 'http://jasonsbaldwin.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
 jenna:
-  end: '2019-06-03'
   links:
   - [Rumblings, 'http://jennavanhout.com/blog', 'http://www.jennavanhout.com/blog?format=RSS']
   start: 2016/12/03
@@ -41,17 +35,14 @@ jeremy:
   - [a digital life, 'https://jeremybrooks.wordpress.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://jeremybrooks.wordpress.com/feed/']
   start: 2016/01/24
 joe:
-  end: '2017-02-14'
   links:
   - [Planet JC, 'https://medium.com/@joeconte', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@joeconte']
   start: 2016/12/10
 jtfoote:
-  end: '2016-06-20'
   links:
   - [waxing prolix, 'http://www.rotormind.com/blog/', 'http://www.rotormind.com/blog/feed/']
   start: 2014/12/27
 maira:
-  end: '2016-07-11'
   links:
   - [maira's blog, 'http://mairasutton.net/', 'http://mairasutton.net/?feed=rss2']
   start: 2014/12/27
@@ -61,86 +52,71 @@ matt:
   - [Matt Spitz, 'https://mattspitz.me/', 'http://vault.ruselaboratories.com/proxy-url?url=https://mattspitz.me/feed.xml']
   start: 2014/12/27
 megan:
-  end: '2016-05-02'
   links:
   - [the lovely ponder, 'https://thelovelyponder.wordpress.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://thelovelyponder.wordpress.com/feed']
   start: 2016/02/04
 meninx:
-  end: '2017-06-19'
   links:
   - [meninx, 'https://medium.com/@meninx', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@meninx']
   start: 2016/12/03
 mike:
-  end: '2016-07-25'
   links:
   - [Mike Makes Art Blog, 'http://mikemakesart.blogspot.com/', 'http://mikemakesart.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
 mikek:
-  end: '2018-01-29'
   links:
   - [Mocking Eye, 'http://mockingeye.com/', 'http://mockingeye.com/atom.xml']
   start: 2014/12/27
 mjanes:
-  end: '2016-04-27'
   links:
   - [What's The Worst That Could Happen, 'http://www.mjanes.com/', 'http://www.mjanes.com/feeds/posts/default']
   start: 2016/01/31
 natalie:
-  end: '2016-08-22'
   links:
   - [natalie freed, 'http://www.nataliefreed.com/blog/', 'http://www.nataliefreed.com/feed/']
   start: 2016/01/15
 phdconfidential:
-  end: 2017/04/21
   links:
   - [PhD Confidential, 'https://medium.com/@phdconfidential', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@phdconfidential']
   start: 2016/12/03
 randylubin:
-  end: '2019-09-23'
   links:
   - [Randy Lubin, 'http://blog.randylubin.com/', 'http://feeds.feedburner.com/randylubin?format=xml']
   - [Diegetic Games, 'https://diegeticgames.com/blog/', 'http://feeds.feedburner.com/DiegeticGamesRpgsStoryGamesStorytelling']
   start: 2014/12/27
 richa:
-  end: 2016/03/08
   links:
   - [richa, 'https://medium.com/@richaaaa/', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@richaaaa']
   start: 2016/01/17
 robert:
-  end: '2017-04-17'
   links:
   - [richa, 'http://activepoet.com/', 'http://activepoet.com/feed/']
   start: 2017/03/03
 selene:
-  end: '2018-04-30'
+  end: '2020-03-09'
   links:
   - [Selena Ross, 'https://catastrophedarling.tumblr.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://catastrophedarling.tumblr.com/rss']
   - [Selena Ross, 'http://selenaross.com', 'http://selenaross.com/feed/']
   start: 2017/01/01
 thisisparker:
-  end: '2016-07-11'
   links:
   - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
   start: 2014/12/27
 trip:
-  end: '2017-10-30'
   links:
   - [Tripish, 'https://medium.com/@tripish', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/@tripish']
   start: 2017/09/09
 vivek:
-  end: '2018-03-12'
   links:
   - [personal inventory, 'http://personalinventory.tumblr.com/', 'http://personalinventory.tumblr.com/rss']
   - [pedantree, 'http://pedantree.tumblr.com/', 'http://pedantree.tumblr.com/rss']
   - [The New Vivek, 'https://medium.com/@thenewvivek', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@thenewvivek']
   start: 2014/12/27
 willow:
-  end: '2019-08-19'
   links:
   - [willowbl00, 'http://blog.bl00cyb.org', 'http://blog.bl00cyb.org/feed/']
   start: 2019/06/17
 xtinasri:
-  end: '2018-06-25'
   links:
   - [xtinasri, xtinasri.tumblr.com, 'http://xtinasri.tumblr.com/rss']
   - [sfdatenight, 'https://www.sfdatenight.com', 'http://vault.ruselaboratories.com/proxy-url?url=https://www.sfdatenight.com/date-ideas?format=RSS']
