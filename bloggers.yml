@@ -1,4 +1,5 @@
 alex:
+  end: '2020-03-16'
   links:
   - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
   start: 2016/12/03
@@ -11,6 +12,7 @@ docpopular:
   - [Doctor Popular, 'http://www.docpop.org/', 'http://www.docpop.org/feed/atom/']
   start: 2014/12/27
 fauxmad:
+  end: '2020-03-16'
   links:
   - [onomatomania, 'http://fauxmad.tumblr.com/', 'http://fauxmad.tumblr.com/rss']
   start: 2016/12/03
@@ -23,10 +25,12 @@ issac:
   - [Issac Kelly, 'https://www.issackelly.com/blog/', 'http://vault.ruselaboratories.com/proxy-url?url=https://www.issackelly.com/blog/.xml']
   start: 2016/01/23
 jason:
+  end: '2020-03-16'
   links:
   - [Jason Baldwin, 'http://jasonsbaldwin.blogspot.com/', 'http://jasonsbaldwin.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
 jenna:
+  end: '2020-03-16'
   links:
   - [Rumblings, 'http://jennavanhout.com/blog', 'http://www.jennavanhout.com/blog?format=RSS']
   start: 2016/12/03
@@ -35,14 +39,17 @@ jeremy:
   - [a digital life, 'https://jeremybrooks.wordpress.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://jeremybrooks.wordpress.com/feed/']
   start: 2016/01/24
 joe:
+  end: '2020-03-16'
   links:
   - [Planet JC, 'https://medium.com/@joeconte', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@joeconte']
   start: 2016/12/10
 jtfoote:
+  end: '2020-03-16'
   links:
   - [waxing prolix, 'http://www.rotormind.com/blog/', 'http://www.rotormind.com/blog/feed/']
   start: 2014/12/27
 maira:
+  end: '2020-03-16'
   links:
   - [maira's blog, 'http://mairasutton.net/', 'http://mairasutton.net/?feed=rss2']
   start: 2014/12/27
@@ -52,26 +59,32 @@ matt:
   - [Matt Spitz, 'https://mattspitz.me/', 'http://vault.ruselaboratories.com/proxy-url?url=https://mattspitz.me/feed.xml']
   start: 2014/12/27
 megan:
+  end: '2020-03-16'
   links:
   - [the lovely ponder, 'https://thelovelyponder.wordpress.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://thelovelyponder.wordpress.com/feed']
   start: 2016/02/04
 meninx:
+  end: '2020-03-16'
   links:
   - [meninx, 'https://medium.com/@meninx', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@meninx']
   start: 2016/12/03
 mike:
+  end: '2020-03-16'
   links:
   - [Mike Makes Art Blog, 'http://mikemakesart.blogspot.com/', 'http://mikemakesart.blogspot.com/feeds/posts/default?alt=rss']
   start: 2014/12/27
 mikek:
+  end: '2020-03-16'
   links:
   - [Mocking Eye, 'http://mockingeye.com/', 'http://mockingeye.com/atom.xml']
   start: 2014/12/27
 mjanes:
+  end: '2020-03-16'
   links:
   - [What's The Worst That Could Happen, 'http://www.mjanes.com/', 'http://www.mjanes.com/feeds/posts/default']
   start: 2016/01/31
 natalie:
+  end: '2020-03-16'
   links:
   - [natalie freed, 'http://www.nataliefreed.com/blog/', 'http://www.nataliefreed.com/feed/']
   start: 2016/01/15
@@ -89,6 +102,7 @@ richa:
   - [richa, 'https://medium.com/@richaaaa/', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@richaaaa']
   start: 2016/01/17
 robert:
+  end: '2020-03-16'
   links:
   - [richa, 'http://activepoet.com/', 'http://activepoet.com/feed/']
   start: 2017/03/03
@@ -99,14 +113,17 @@ selene:
   - [Selena Ross, 'http://selenaross.com', 'http://selenaross.com/feed/']
   start: 2017/01/01
 thisisparker:
+  end: '2020-03-16'
   links:
   - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
   start: 2014/12/27
 trip:
+  end: '2020-03-16'
   links:
   - [Tripish, 'https://medium.com/@tripish', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/@tripish']
   start: 2017/09/09
 vivek:
+  end: '2020-03-16'
   links:
   - [personal inventory, 'http://personalinventory.tumblr.com/', 'http://personalinventory.tumblr.com/rss']
   - [pedantree, 'http://pedantree.tumblr.com/', 'http://pedantree.tumblr.com/rss']
@@ -117,6 +134,7 @@ willow:
   - [willowbl00, 'http://blog.bl00cyb.org', 'http://blog.bl00cyb.org/feed/']
   start: 2019/06/17
 xtinasri:
+  end: '2020-03-16'
   links:
   - [xtinasri, xtinasri.tumblr.com, 'http://xtinasri.tumblr.com/rss']
   - [sfdatenight, 'https://www.sfdatenight.com', 'http://vault.ruselaboratories.com/proxy-url?url=https://www.sfdatenight.com/date-ideas?format=RSS']
