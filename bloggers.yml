@@ -89,10 +89,12 @@ natalie:
   - [natalie freed, 'http://www.nataliefreed.com/blog/', 'http://www.nataliefreed.com/feed/']
   start: 2016/01/15
 phdconfidential:
+  end: '2020-04-07'
   links:
   - [PhD Confidential, 'https://medium.com/@phdconfidential', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@phdconfidential']
   start: 2016/12/03
 randylubin:
+  end: '2020-04-07'
   links:
   - [Randy Lubin, 'http://blog.randylubin.com/', 'http://feeds.feedburner.com/randylubin?format=xml']
   - [Diegetic Games, 'https://diegeticgames.com/blog/', 'http://feeds.feedburner.com/DiegeticGamesRpgsStoryGamesStorytelling']
