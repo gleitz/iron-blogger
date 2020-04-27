@@ -100,6 +100,7 @@ randylubin:
   - [Diegetic Games, 'https://diegeticgames.com/blog/', 'http://feeds.feedburner.com/DiegeticGamesRpgsStoryGamesStorytelling']
   start: 2014/12/27
 richa:
+  end: '2020-04-20'
   links:
   - [richa, 'https://medium.com/@richaaaa/', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@richaaaa']
   start: 2016/01/17
@@ -132,6 +133,7 @@ vivek:
   - [The New Vivek, 'https://medium.com/@thenewvivek', 'http://vault.ruselaboratories.com/proxy-url?url=https://medium.com/feed/@thenewvivek']
   start: 2014/12/27
 willow:
+  end: '2020-04-20'
   links:
   - [willowbl00, 'http://blog.bl00cyb.org', 'http://blog.bl00cyb.org/feed/']
   start: 2019/06/17
