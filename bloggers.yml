@@ -37,6 +37,7 @@ jenna:
   - [Rumblings, 'http://jennavanhout.com/blog', 'http://www.jennavanhout.com/blog?format=RSS']
   start: 2016/12/03
 jeremy:
+  end: '2020-07-13'
   links:
   - [a digital life, 'https://jeremybrooks.wordpress.com/', 'http://vault.ruselaboratories.com/proxy-url?url=https://jeremybrooks.wordpress.com/feed/']
   start: 2016/01/24
