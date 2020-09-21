@@ -17,6 +17,7 @@ fauxmad:
   - [onomatomania, 'http://fauxmad.tumblr.com/', 'http://fauxmad.tumblr.com/rss']
   start: 2016/12/03
 gleitz:
+  end: '2020-09-14'
   links:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
   start: 2014/12/27
