@@ -38,7 +38,7 @@ Iron blogger runs in two places:
 First, you will need to set up a  Wordpress installation. You can
 download one from: https://wordpress.org/
 
-Please follow the instructions there on how to set one up. 
+Please follow the instructions there on how to set one up.
 
 Once you have installed wordpress, you need to turn on XML-RPC. You can
 do that by checking the box in the Settings -> Writing -> XML-RPC
@@ -206,7 +206,7 @@ These two files should be edited so that they contain details about your
 name/administrator, email address, etc:
 
 templates/config.ini
-templates/email.txt 
+templates/email.txt
 
 2.
 
@@ -317,3 +317,11 @@ Unpunting requires two changes:
   Pool:Owed:mako    -30
   Pool:Paid
 
+=== Cron Settings ===
+
+# updating the iron blogger RSS
+0 */1 * * * cd /path/to/planet-nightly; python2.7 planet.py examples/iron/config.ini >/dev/null 2>&1
+# updating the list of bloggers
+0 * * * * source /path/to/.virtualenvs/iron-blogger/bin/activate && cd /path/to/iron-blogger/ && python scan-feeds.py >> /path/to/output.txt 2>&1 && sh update-bloggers >> /path/to/output.txt 2>&1
+# sending a weekly email
+0 8 * * 1 source /path/to/.virtualenvs/iron-blogger/bin/activate && cd /path/to/iron-blogger/ && python weekly-update.py $(date --date="last Monday" +\%Y-\%m-\%d) >> /path/to/output.txt 2>&1

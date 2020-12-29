@@ -3,7 +3,7 @@ MarkupSafe==0.18
 PyYAML==3.10
 bz2file==0.95
 feedparser==5.1.3
-lxml==3.2.3
+lxml==4.6.2
 python-dateutil==2.1
 six==1.4.1
 wsgiref==0.1.2
