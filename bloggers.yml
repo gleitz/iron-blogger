@@ -7,6 +7,10 @@ christine:
   links:
   - [Certainly Strange, 'http://www.certainly-strange.com/', 'http://www.certainly-strange.com/?feed=rss2']
   start: 2014/12/27
+claire:
+  links:
+  - [stackin, 'https://clairekao.substack.com/', 'https://clairekao.substack.com/feed']
+  start: 2020/12/27
 docpopular:
   links:
   - [Doctor Popular, 'http://www.docpop.org/', 'http://www.docpop.org/feed/atom/']
@@ -21,7 +25,6 @@ gleitz:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
   start: 2014/12/27
 issac:
-  end: '2020-09-28'
   links:
   - [Issac Kelly, 'https://www.issackelly.com/blog/', 'https://www.issackelly.com/blog/.xml']
   start: 2016/01/23
@@ -85,6 +88,10 @@ mjanes:
   links:
   - [What's The Worst That Could Happen, 'http://www.mjanes.com/', 'http://www.mjanes.com/feeds/posts/default']
   start: 2016/01/31
+mrcoles:
+  links:
+  - [mrcoles, 'https://mrcoles.com/', 'https://mrcoles.com/feeds/latest/']
+  start: 2020/12/27
 natalie:
   end: '2020-03-16'
   links:
@@ -96,7 +103,6 @@ phdconfidential:
   - [PhD Confidential, 'https://medium.com/@phdconfidential', 'https://medium.com/feed/@phdconfidential']
   start: 2016/12/03
 randylubin:
-  end: '2020-04-07'
   links:
   - [Randy Lubin, 'http://blog.randylubin.com/', 'http://feeds.feedburner.com/randylubin?format=xml']
   - [Diegetic Games, 'https://diegeticgames.com/blog/', 'http://feeds.feedburner.com/DiegeticGamesRpgsStoryGamesStorytelling']
@@ -145,6 +151,3 @@ xtinasri:
   - [xtinasri, xtinasri.tumblr.com, 'http://xtinasri.tumblr.com/rss']
   - [sfdatenight, 'https://www.sfdatenight.com', 'https://www.sfdatenight.com/date-ideas?format=RSS']
   start: 2015/09/14
-mrcoles:
-  links:
-  - [mrcoles, 'https://mrcoles.com/', 'https://mrcoles.com/feeds/latest/']
