@@ -148,3 +148,7 @@ xtinasri:
   - [xtinasri, xtinasri.tumblr.com, 'http://xtinasri.tumblr.com/rss']
   - [sfdatenight, 'https://www.sfdatenight.com', 'https://www.sfdatenight.com/date-ideas?format=RSS']
   start: 2015/09/14
+travis:
+  links:
+  - [travis vachon, 'https://trav.page/log/', 'https://trav.page/log/rss.xml']
+  start: 2020/12/27

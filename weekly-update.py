@@ -6,6 +6,9 @@ import yaml
 import smtplib
 import json
 
+from datetime import datetime
+print 'Weekly update started at ' + str(datetime.now())
+
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 

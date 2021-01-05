@@ -6,6 +6,9 @@ import sys
 from dateutil.parser import parse
 import dateutil.tz as tz
 
+from datetime import datetime
+print 'Scanning feeds started at ' + str(datetime.now())
+
 with open('bloggers.yml') as f:
     users = yaml.safe_load(f.read())
 
