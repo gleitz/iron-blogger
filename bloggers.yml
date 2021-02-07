@@ -3,6 +3,10 @@ alex:
   links:
   - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
   start: 2016/12/03
+ray:
+  links:
+  - [Raymond Cheng, 'https://raymondcheng.net/blog/', 'https://raymondcheng.net/feed.xml']
+  start: 2020/02/07
 christine:
   links:
   - [Certainly Strange, 'http://www.certainly-strange.com/', 'http://www.certainly-strange.com/?feed=rss2']
