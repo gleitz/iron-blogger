@@ -3,10 +3,6 @@ alex:
   links:
   - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
   start: 2016/12/03
-ray:
-  links:
-  - [Raymond Cheng, 'https://raymondcheng.net/blog/', 'https://raymondcheng.net/feed.xml']
-  start: 2020/02/07
 christine:
   links:
   - [Certainly Strange, 'http://www.certainly-strange.com/', 'http://www.certainly-strange.com/?feed=rss2']
@@ -14,6 +10,7 @@ christine:
 claire:
   links:
   - [stackin, 'https://clairekao.substack.com/', 'https://clairekao.substack.com/feed']
+  - [Claire Kao, 'https://world.hey.com/claire.kao/', 'https://world.hey.com/claire.kao/feed.atom']
   start: 2020/12/27
 docpopular:
   links:
@@ -111,6 +108,10 @@ randylubin:
   - [Randy Lubin, 'http://blog.randylubin.com/', 'http://feeds.feedburner.com/randylubin?format=xml']
   - [Diegetic Games, 'https://diegeticgames.com/blog/', 'http://feeds.feedburner.com/DiegeticGamesRpgsStoryGamesStorytelling']
   start: 2014/12/27
+ray:
+  links:
+  - [Raymond Cheng, 'https://raymondcheng.net/blog/', 'https://raymondcheng.net/feed.xml']
+  start: 2020/02/07
 richa:
   end: '2020-04-20'
   links:
