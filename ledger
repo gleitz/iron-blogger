@@ -95,3 +95,20 @@
 2021-03-22 Fine Week 389
   User:travis    -5
   Pool:Owed:travis
+
+2021-03-26 Payment
+  Pool:Owed:ray    -25
+  Pool:Paid
+
+2021-03-29 Fine Week 390
+  User:issac    -5
+  Pool:Owed:issac
+2021-03-29 Fine Week 390
+  User:ray    -5
+  Pool:Owed:ray
+2021-03-29 Fine Week 390
+  User:selene    -5
+  Pool:Owed:selene
+2021-03-29 Fine Week 390
+  User:travis    -5
+  Pool:Owed:travis
