@@ -112,3 +112,7 @@
 2021-03-29 Fine Week 390
   User:travis    -5
   Pool:Owed:travis
+
+2021-03-29 Payment
+  Pool:Owed:travis    -10
+  Pool:Paid
