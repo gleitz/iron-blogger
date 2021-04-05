@@ -26,6 +26,7 @@ gleitz:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
   start: 2014/12/27
 issac:
+  end: '2021-03-29'
   links:
   - [Issac Kelly, 'https://www.issackelly.com/blog/', 'https://www.issackelly.com/blog/.xml']
   start: 2016/01/23
