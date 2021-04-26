@@ -124,6 +124,7 @@ robert:
   - [richa, 'http://activepoet.com/', 'http://activepoet.com/feed/']
   start: 2017/03/03
 selene:
+  end: '2021-04-19'
   links:
   - [Selena Ross, 'https://catastrophedarling.tumblr.com/', 'https://catastrophedarling.tumblr.com/rss']
   - [Selena Ross, 'http://selenaross.com', 'http://selenaross.com/feed/']
