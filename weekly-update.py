@@ -15,7 +15,7 @@ from email.mime.text import MIMEText
 import render
 from config import *
 
-def send_email(address, html):
+def send_email(address, html, date):
     with open('secret.txt', 'r') as f:
         secret = json.load(f)
         username = secret['gmail']['username']
@@ -28,7 +28,7 @@ def send_email(address, html):
     smtp.ehlo()
     smtp.login(username, password)
     msg = MIMEMultipart('mixed')
-    msg['Subject'] = 'Weekly Recap'
+    msg['Subject'] = 'Weekly Recap for ' + date
     msg['To'] = address
     msg['From'] = username
     msg['Content-Type'] = 'text/html'
@@ -90,7 +90,7 @@ def generate_email():
     if dry_run:
         print email
     else:
-        send_email('iron-blogger-sf@googlegroups.com', email)
+        send_email('iron-blogger-sf@googlegroups.com', email, date)
 
     with open('out/email.txt', 'w') as f:
         f.write(email)
