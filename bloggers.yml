@@ -110,6 +110,7 @@ randylubin:
   - [Diegetic Games, 'https://diegeticgames.com/blog/', 'http://feeds.feedburner.com/DiegeticGamesRpgsStoryGamesStorytelling']
   start: 2014/12/27
 ray:
+  end: '2021-05-17'
   links:
   - [Raymond Cheng, 'https://raymondcheng.net/blog/', 'https://raymondcheng.net/feed.xml']
   start: 2020/02/07
@@ -145,6 +146,7 @@ trip:
   - [Tripish, 'https://medium.com/@tripish', 'https://medium.com/@tripish']
   start: 2017/09/09
 vivek:
+  end: '2021-05-17'
   links:
   - [Vivek Sri, 'https://vsri.xyz/', 'https://vsri.xyz/feed.rss']
   start: 2014/12/27
