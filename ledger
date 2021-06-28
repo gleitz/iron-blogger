@@ -282,3 +282,7 @@
 2021-06-28 Fine Week 403
   User:travis    -5
   Pool:Owed:travis
+
+2021-06-21 Punt
+  Pool:Owed:travis  -35.0
+  User:travis

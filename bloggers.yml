@@ -137,6 +137,7 @@ thisisparker:
   - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
   start: 2014/12/27
 travis:
+  end: '2021-06-21'
   links:
   - [travis vachon, 'https://trav.page/log/', 'https://trav.page/log/rss.xml']
   start: 2020/12/27
