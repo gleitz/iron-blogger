@@ -317,3 +317,7 @@
 2021-07-26 Fine Week 407
   User:mrcoles    -5
   Pool:Owed:mrcoles
+
+2021-07-26 Payment
+  Pool:Owed:mrcoles    -20
+  Pool:Paid
