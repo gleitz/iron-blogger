@@ -50,9 +50,8 @@ def parse_feeds(weeks, uri):
 
         while len(weeks) <= wn:
             weeks.append([])
-
         post = dict(date=date,
-                    title=post.title,
+                    title=post.get('title', post.get('id', 'untitled')),
                     url=get_link(post))
         if post['url'] not in [p['url'] for p in weeks[wn]]:
             weeks[wn].append(post)
