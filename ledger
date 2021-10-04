@@ -384,3 +384,7 @@
 2021-09-27 Fine Week 416
   User:mrcoles    -5
   Pool:Owed:mrcoles
+
+2021-10-03 Payment
+  Pool:Owed:mrcoles    -30
+  Pool:Paid
