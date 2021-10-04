@@ -388,3 +388,7 @@
 2021-10-03 Payment
   Pool:Owed:mrcoles    -30
   Pool:Paid
+
+2021-10-04 Fine Week 417
+  User:docpopular    -5
+  Pool:Owed:docpopular
