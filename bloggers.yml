@@ -26,7 +26,6 @@ gleitz:
   - [I before E except Gleitzman, 'http://blog.gleitzman.com/', 'http://blog.gleitzman.com/rss']
   start: 2014/12/27
 issac:
-  end: '2021-03-29'
   links:
   - [Issac Kelly, 'https://www.issackelly.com/blog/', 'https://www.issackelly.com/blog/.xml']
   start: 2016/01/23
@@ -111,7 +110,6 @@ randylubin:
   - [Diegetic Games, 'https://diegeticgames.com/blog/', 'http://feeds.feedburner.com/DiegeticGamesRpgsStoryGamesStorytelling']
   start: 2014/12/27
 ray:
-  end: '2021-05-17'
   links:
   - [Raymond Cheng, 'https://raymondcheng.net/blog/', 'https://raymondcheng.net/feed.xml']
   start: 2020/02/07
@@ -138,7 +136,7 @@ thisisparker:
   - [parker higgins dot net, 'http://parkerhiggins.net', 'http://parkerhiggins.net/feed/']
   start: 2014/12/27
 travis:
-  end: '2021-06-21'
+  end: '2022-03-07'
   links:
   - [travis vachon, 'https://trav.page/log/', 'https://trav.page/log/rss.xml']
   start: 2020/12/27
@@ -148,7 +146,6 @@ trip:
   - [Tripish, 'https://medium.com/@tripish', 'https://medium.com/@tripish']
   start: 2017/09/09
 vivek:
-  end: '2021-05-17'
   links:
   - [Vivek Sri, 'https://vsri.xyz/', 'https://vsri.xyz/feed.rss']
   start: 2014/12/27
