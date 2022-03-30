@@ -82,8 +82,13 @@ def generate_email():
             secret = json.load(f)
             passwd = secret['wordpress']['password']
 
-        x = xmlrpclib.ServerProxy(XMLRPC_ENDPOINT)
-        x.metaWeblog.newPost(BLOG_ID, USER, passwd, page, True)
+        try:
+            x = xmlrpclib.ServerProxy(XMLRPC_ENDPOINT)
+            x.metaWeblog.newPost(BLOG_ID, USER, passwd, page, True)
+        except:
+            # website is down?
+            pass
+
 
     email = render.render_template('templates/email.html', date, punt=punt)
 
