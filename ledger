@@ -239,3 +239,7 @@
 2022-05-23 Fine Week 450
   User:docpopular    -5
   Pool:Owed:docpopular
+
+2022-05-23 Payment
+  Pool:Owed:gleitz    -30
+  Pool:Paid
