@@ -243,3 +243,7 @@
 2022-05-23 Payment
   Pool:Owed:gleitz    -30
   Pool:Paid
+
+2022-05-30 Fine Week 451
+  User:gleitz    -5
+  Pool:Owed:gleitz
