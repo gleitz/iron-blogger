@@ -3,6 +3,8 @@ import yaml
 import feedparser
 import datetime
 import sys
+import lxml.html
+import textwrap3 as textwrap
 from dateutil.parser import parse
 import dateutil.tz as tz
 
@@ -50,8 +52,16 @@ def parse_feeds(weeks, uri):
 
         while len(weeks) <= wn:
             weeks.append([])
+        title = post.get('title', '')
+        if title == '':
+            try:
+                description = post.get('description')
+                title = textwrap.shorten(lxml.html.document_fromstring(description).text_content(),
+                                         width=100, placeholder='...')
+            except:
+                title = 'untitled'
         post = dict(date=date,
-                    title=post.get('title', post.get('id', 'untitled')),
+                    title=title,
                     url=get_link(post))
         if post['url'] not in [p['url'] for p in weeks[wn]]:
             weeks[wn].append(post)
