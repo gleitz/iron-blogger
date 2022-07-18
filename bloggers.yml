@@ -113,9 +113,9 @@ randylubin:
   - [Diegetic Games, 'https://diegeticgames.com/blog/', 'http://feeds.feedburner.com/DiegeticGamesRpgsStoryGamesStorytelling']
   start: 2014/12/27
 ray:
-  end: '2022-05-09'
   links:
   - [Raymond Cheng, 'https://raymondcheng.net/blog/', 'https://raymondcheng.net/feed.xml']
+  - [Fuzhou Food, 'https://www.fuzhoufood.com/', 'https://www.fuzhoufood.com/feed']
   start: 2020/02/07
 richa:
   end: '2020-04-20'
