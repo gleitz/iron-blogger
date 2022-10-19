@@ -330,3 +330,7 @@
 2022-10-17 Fine Week 471
   User:ray    -5
   Pool:Owed:ray
+
+2022-10-17 Payment
+  Pool:Owed:christine    -30
+  Pool:Paid
