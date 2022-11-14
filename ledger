@@ -366,3 +366,7 @@
 2022-11-07 Punt
   Pool:Owed:vivek  -35.0
   User:vivek
+
+2022-11-14 Payment
+  Pool:Owed:ray    -30
+  Pool:Paid
