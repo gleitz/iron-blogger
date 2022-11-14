@@ -150,6 +150,7 @@ trip:
   - [Tripish, 'https://medium.com/@tripish', 'https://medium.com/@tripish']
   start: 2017/09/09
 vivek:
+  end: '2022-11-07'
   links:
   - [Vivek Sri, 'https://vsri.xyz/', 'https://vsri.xyz/feed.rss']
   start: 2014/12/27
