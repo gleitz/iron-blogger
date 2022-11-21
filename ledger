@@ -370,3 +370,10 @@
 2022-11-14 Payment
   Pool:Owed:ray    -30
   Pool:Paid
+
+2022-11-21 Fine Week 476
+  User:christine    -5
+  Pool:Owed:christine
+2022-11-21 Fine Week 476
+  User:gleitz    -5
+  Pool:Owed:gleitz
