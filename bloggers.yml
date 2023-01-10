@@ -107,7 +107,6 @@ phdconfidential:
   - [PhD Confidential, 'https://medium.com/@phdconfidential', 'https://medium.com/feed/@phdconfidential']
   start: 2016/12/03
 randylubin:
-  end: '2022-05-02'
   links:
   - [Randy Lubin, 'http://blog.randylubin.com/', 'http://feeds.feedburner.com/randylubin?format=xml']
   - [Diegetic Games, 'https://diegeticgames.com/blog/', 'http://feeds.feedburner.com/DiegeticGamesRpgsStoryGamesStorytelling']
@@ -150,9 +149,9 @@ trip:
   - [Tripish, 'https://medium.com/@tripish', 'https://medium.com/@tripish']
   start: 2017/09/09
 vivek:
-  end: '2022-11-07'
   links:
   - [Vivek Sri, 'https://vsri.xyz/', 'https://vsri.xyz/feed.rss']
+  - [Monoprinciples, 'https://microprinciples.substack.com/', 'https://microprinciples.substack.com/feed']
   start: 2014/12/27
 willow:
   end: '2020-04-20'
