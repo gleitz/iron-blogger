@@ -107,3 +107,7 @@
 2023-05-22 Fine Week 502
   User:ray    -5
   Pool:Owed:ray
+
+2023-05-23 Payment
+  Pool:Owed:ray    -30
+  Pool:Paid
