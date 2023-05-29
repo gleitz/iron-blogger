@@ -111,3 +111,7 @@
 2023-05-23 Payment
   Pool:Owed:ray    -30
   Pool:Paid
+
+2023-05-29 Fine Week 503
+  User:ray    -5
+  Pool:Owed:ray
