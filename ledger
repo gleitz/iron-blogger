@@ -5,8 +5,8 @@
 
 
 2023-01-16 Fine Week 484
-  User:christine    -5
-  Pool:Owed:christine
+  User:steen    -5
+  Pool:Owed:steen
 2023-01-16 Fine Week 484
   User:randylubin    -5
   Pool:Owed:randylubin
@@ -18,8 +18,8 @@
 
 
 2023-01-30 Fine Week 486
-  User:christine    -5
-  Pool:Owed:christine
+  User:steen    -5
+  Pool:Owed:steen
 
 
 
@@ -27,8 +27,8 @@
 
 
 2023-02-27 Fine Week 490
-  User:christine    -5
-  Pool:Owed:christine
+  User:steen    -5
+  Pool:Owed:steen
 2023-02-27 Fine Week 490
   User:gleitz    -5
   Pool:Owed:gleitz
@@ -120,8 +120,8 @@
 
 
 2023-06-12 Fine Week 505
-  User:christine    -5
-  Pool:Owed:christine
+  User:steen    -5
+  Pool:Owed:steen
 
 
 2023-06-19 Fine Week 506
@@ -140,8 +140,8 @@
 
 
 2023-07-31 Fine Week 512
-  User:christine    -5
-  Pool:Owed:christine
+  User:steen    -5
+  Pool:Owed:steen
 2023-07-31 Fine Week 512
   User:claire    -5
   Pool:Owed:claire
@@ -164,8 +164,8 @@
 
 
 2023-09-11 Fine Week 518
-  User:christine    -5
-  Pool:Owed:christine
+  User:steen    -5
+  Pool:Owed:steen
 2023-09-11 Fine Week 518
   User:claire    -5
   Pool:Owed:claire
@@ -178,12 +178,17 @@
 
 
 2023-09-18 Fine Week 519
-  User:christine    -5
-  Pool:Owed:christine
+  User:steen    -5
+  Pool:Owed:steen
 2023-09-18 Fine Week 519
   User:claire    -5
   Pool:Owed:claire
 
 2023-09-11 Punt
-  Pool:Owed:christine  -35.0
-  User:christine
+  Pool:Owed:steen  -35.0
+  User:steen
+
+2023-09-24 Payment
+  Pool:Owed:steen    -30
+  Pool:Paid
+
