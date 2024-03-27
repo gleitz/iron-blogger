@@ -4,7 +4,6 @@ alex:
   - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
   start: 2016/12/03
 claire:
-  end: '2023-10-30'
   links:
   - [stackin, 'https://clairekao.substack.com/', 'https://clairekao.substack.com/feed']
   - [Claire Kao, 'https://world.hey.com/claire.kao/', 'https://world.hey.com/claire.kao/feed.atom']
@@ -110,7 +109,7 @@ randylubin:
   - [Diegetic Games, 'https://diegeticgames.com/blog/', 'http://feeds.feedburner.com/DiegeticGamesRpgsStoryGamesStorytelling']
   start: 2014/12/27
 ray:
-  end: '2023-12-11'
+  end: '2024-03-25'
   links:
   - [Raymond Cheng, 'https://raymondcheng.net/blog/', 'https://www.raymondcheng.net/posts/rss.xml']
   - [Fuzhou Food, 'https://www.fuzhoufood.com/', 'https://www.fuzhoufood.com/feed']
