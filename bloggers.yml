@@ -4,6 +4,7 @@ alex:
   - [Grumkin, 'http://grumkin.tumblr.com/', 'http://grumkin.tumblr.com/rss']
   start: 2016/12/03
 claire:
+  end: '2024-07-08'
   links:
   - [stackin, 'https://clairekao.substack.com/', 'https://clairekao.substack.com/feed']
   - [Claire Kao, 'https://world.hey.com/claire.kao/', 'https://world.hey.com/claire.kao/feed.atom']
