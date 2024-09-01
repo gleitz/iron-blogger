@@ -133,7 +133,6 @@ selene:
   - [Tendermethod, 'https://tendermethod.tumblr.com/', 'https://tendermethod.tumblr.com/rss']
   start: 2017/01/01
 steen:
-  end: '2024-08-19'
   links:
   - [Certainly Strange, 'http://www.certainly-strange.com/', 'http://www.certainly-strange.com/?feed=rss2']
   start: 2014/12/27
