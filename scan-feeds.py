@@ -2,6 +2,7 @@
 import yaml
 import feedparser
 import datetime
+import os
 import sys
 import lxml.html
 import textwrap3 as textwrap
@@ -17,8 +18,10 @@ with open('bloggers.yml') as f:
 try:
     with open('out/report.yml') as f:
         log = yaml.safe_load(f.read())
-except IOError:
+except:
     log = {}
+    os.remove('out/report.yml')
+
 
 from config import START
 
