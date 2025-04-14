@@ -152,7 +152,6 @@ trip:
   - [Tripish, 'https://medium.com/@tripish', 'https://medium.com/@tripish']
   start: 2017/09/09
 vivek:
-  end: '2024-12-09'
   links:
   - [Vivek Sri, 'https://vsri.xyz/', 'https://vsri.xyz/feed.rss']
   - [Monoprinciples, 'https://microprinciples.substack.com/', 'https://microprinciples.substack.com/feed']
