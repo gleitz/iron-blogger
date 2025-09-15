@@ -132,3 +132,11 @@
 2025-09-08 Fine Week 622
   User:gleitz    -5
   Pool:Owed:gleitz
+
+2025-09-10 Payment
+  Pool:Owed:gleitz    -30
+  Pool:Paid
+
+2025-09-15 Fine Week 623
+  User:vivek    -5
+  Pool:Owed:vivek
