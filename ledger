@@ -179,3 +179,7 @@
   Pool:Owed:steen
 
 
+
+2025-12-08 Payment
+  Pool:Owed:steen    -30
+  Pool:Paid
