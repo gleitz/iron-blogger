@@ -183,3 +183,7 @@
 2025-12-08 Payment
   Pool:Owed:steen    -30
   Pool:Paid
+
+2025-12-15 Fine Week 636
+  User:gleitz    -5
+  Pool:Owed:gleitz
