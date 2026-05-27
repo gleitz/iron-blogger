@@ -17,10 +17,9 @@ with open('bloggers.yml') as f:
 
 try:
     with open('out/report.yml') as f:
-        log = yaml.safe_load(f.read())
-except:
+        log = yaml.safe_load(f.read()) or {}
+except IOError:
     log = {}
-    os.remove('out/report.yml')
 
 
 from config import START
@@ -55,6 +54,8 @@ def parse_feeds(weeks, uri):
 
         while len(weeks) <= wn:
             weeks.append([])
+        if weeks[wn] is None:
+            weeks[wn] = []
         title = post.get('title', '')
         if title == '':
             try:
