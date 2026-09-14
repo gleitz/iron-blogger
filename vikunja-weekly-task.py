@@ -64,6 +64,7 @@ import fcntl
 import hashlib
 import json
 import os
+import stat
 import sys
 import tempfile
 import time as _time
@@ -112,10 +113,23 @@ def default_lock_path(base, project, ref):
     duplicate -- and a caller that wants a private directory says so with
     ``--lock-file``, which the scheduled job does.
     """
-    key = "\x00".join((base, str(project), ref)).encode("utf-8")
+    # 🪤 NORMALISED the way ``Vikunja.__init__`` normalises it. ``https://v``
+    # and ``https://v/`` are the same server and reach the same task, but as
+    # raw strings they hash differently -- so the scheduled run and a hand run
+    # spelling the URL the other way would take two locks and both create
+    # (codex [P2] on 0f060657). The key must be the identity the REQUESTS use.
+    key = "\x00".join((base.rstrip("/"), str(project), ref)).encode("utf-8")
     digest = hashlib.sha256(key).hexdigest()[:16]
-    return os.path.join(tempfile.gettempdir(),
-                        "vikunja-weekly-%s.lock" % digest)
+    try:
+        tmp = tempfile.gettempdir()
+    except Exception as exc:                      # noqa: BLE001
+        # gettempdir() RAISES when no candidate directory is usable (a
+        # read-only container, say). Letting that out would print a traceback
+        # and exit 1 -- a shape no caller of this script is told to expect.
+        raise RuntimeError(
+            "no usable temp directory for the default lock (%s: %s) -- pass "
+            "--lock-file" % (type(exc).__name__, exc))
+    return os.path.join(tmp, "vikunja-weekly-%s.lock" % digest)
 
 
 @contextlib.contextmanager
@@ -134,20 +148,43 @@ def exclusive(path, wait=LOCK_WAIT_SECONDS):
     "because the guard was unavailable" is the duplicate it exists to stop.
     A guard that fails open reads as a pass.
     """
+    # 🚨 O_NOFOLLOW, AND THE MODE IS CHECKED BEFORE IT IS CHANGED. The default
+    # path is predictable and lands in a world-writable temp directory, and the
+    # scheduled caller is ROOT: another user who pre-creates that name as a
+    # symlink to /etc/shadow would, without this, have had root follow it and
+    # `fchmod` the target to 0666 (codex [P1] on 0f060657). O_NOFOLLOW refuses
+    # the final component as a symlink; S_ISREG refuses a fifo or a device; and
+    # the chmod happens only on a file this process OWNS, so an existing file
+    # belonging to somebody else is never re-moded.
     try:
-        fd = os.open(path, os.O_RDWR | os.O_CREAT, 0o666)
+        fd = os.open(path, os.O_RDWR | os.O_CREAT | os.O_NOFOLLOW, 0o666)
     except OSError as exc:
         raise RuntimeError(
-            "could not open the lock file %s (%s) -- pass --lock-file to put "
-            "it somewhere writable" % (path, exc))
-    # 🪤 0666, and the umask undone, because a lock is the one file that has to
-    # be SHARED. The scheduled run is root and a hand re-run is not; whoever
-    # created the file first would otherwise own a 0600 lock the other cannot
-    # open, and the second caller would refuse forever. It holds no secret.
-    # Confinement is the DIRECTORY's job -- put the lock somewhere only the
-    # intended callers can reach (the app dir), not somewhere world-writable.
-    with contextlib.suppress(OSError):
-        os.fchmod(fd, 0o666)
+            "could not open the lock file %s (%s) -- a symlink or a special "
+            "file at that path is refused; pass --lock-file to put it "
+            "somewhere writable this process owns" % (path, exc))
+    try:
+        st = os.fstat(fd)
+        if not stat.S_ISREG(st.st_mode):
+            raise RuntimeError("the lock path %s is not a regular file" % path)
+        if st.st_nlink != 1:
+            # A hard link is the same attack without the symlink: the name we
+            # opened is somebody else's file under a second name.
+            raise RuntimeError(
+                "the lock file %s has %d links -- refusing to use a hard-linked "
+                "path" % (path, st.st_nlink))
+        # 0666 because a lock is the one file that has to be SHARED: the
+        # scheduled run is root and a hand re-run is not, and a 0600 lock would
+        # shut whichever of them did not create it out entirely. It holds no
+        # secret. Confinement is the DIRECTORY's job -- the scheduled caller
+        # passes --lock-file pointing inside the app dir, which is not
+        # world-writable.
+        if st.st_uid == os.geteuid():
+            with contextlib.suppress(OSError):
+                os.fchmod(fd, 0o666)
+    except Exception:
+        os.close(fd)
+        raise
     deadline = _time.monotonic() + wait
     try:
         while True:
