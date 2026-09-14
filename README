@@ -325,3 +325,28 @@ Unpunting requires two changes:
 0 * * * * source /path/to/.virtualenvs/iron-blogger/bin/activate && cd /path/to/iron-blogger/ && python scan-feeds.py >> /path/to/output.txt 2>&1 && sh update-bloggers >> /path/to/output.txt 2>&1
 # sending a weekly email
 0 8 * * 1 source /path/to/.virtualenvs/iron-blogger/bin/activate && cd /path/to/iron-blogger/ && python weekly-update.py $(date --date="last Monday" +\%Y-\%m-\%d) >> /path/to/output.txt 2>&1
+
+=== Optional: file the recap as a task (Vikunja) ===
+
+vikunja-weekly-task.py posts the recap you just mailed to the group onto a
+Vikunja list as one task, so it shows up wherever you keep your inbox. It is a
+POST-STEP: run it only after weekly-update.py has returned 0, and never let it
+fail the mail -- the group mail is the product.
+
+    VIKUNJA_URL=https://your-vikunja VIKUNJA_TOKEN=tk_... \
+        python3 vikunja-weekly-task.py \
+            --project 1 --date "$(date --date='last Monday' +%Y-%m-%d)" \
+            --body-file out/email.txt
+
+The token is read from the environment and never from the command line, because
+`ps` is readable by other users. Scope it to tasks:create + tasks:read_all --
+nothing here needs more.
+
+Re-running is safe. The task's description carries an
+`external_ref: iron-blogger:<date>` line and the script refuses to file a
+second task for a date that already has one, whether or not you have ticked it
+off. A list it cannot READ is refused too (exit 3), rather than treated as
+empty: filing a duplicate costs more than filing nothing and saying so.
+
+Exit codes: 0 filed or already there, 1 the create was refused, 2 usage,
+3 could not measure.
