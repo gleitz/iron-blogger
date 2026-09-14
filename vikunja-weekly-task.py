@@ -35,9 +35,12 @@ REFUSES (exit 3) rather than creating, because a false "no task yet" here files
 a duplicate of a 3 KB recap onto Benjamin's own Inbox, while a false refusal
 files nothing and says so.  The two errors are not the same size.
 
-The read and the create are held under a file lock (``--lock-file``, by
-default beside the recap body), because they are two operations and not one:
-two overlapping runs could otherwise both see absence and both file a card.
+The read and the create are held under a file lock, because they are two
+operations and not one: two overlapping runs could otherwise both see absence
+and both file a card.  The lock is keyed on what IDENTIFIES the task -- server,
+project, ref -- so two runs reading different copies of the same recap still
+exclude each other.  ``--lock-file`` overrides it, and the scheduled caller
+should, to keep the lock out of a world-writable directory.
 
 An exact TITLE match counts as present too.  Both records identify the same
 week; the only failure that matters is a second row for one recap, and the
@@ -58,9 +61,11 @@ import argparse
 import contextlib
 import errno
 import fcntl
+import hashlib
 import json
 import os
 import sys
+import tempfile
 import time as _time
 import urllib.error
 import urllib.parse
@@ -91,6 +96,28 @@ LOCK_WAIT_SECONDS = 120.0
 MAX_PAGES = 40
 
 
+def default_lock_path(base, project, ref):
+    """Where the lock lives when the caller does not say.
+
+    🪤 KEYED ON THE TASK'S IDENTITY, NOT ON THE BODY FILE.  It was the body
+    file's path once, which looked reasonable and was not: the identity is
+    (server, project, ref), and a hand re-run pointed at an archived copy of
+    the recap would have taken a DIFFERENT lock from the scheduled run reading
+    ``out/email.txt`` -- two locks, no mutual exclusion, and the duplicate the
+    lock exists to prevent (codex [P2] on d29de8f5).  The body is an input to
+    the card, never part of what identifies it.
+
+    The temp directory is world-writable on most hosts, so another user can
+    squat this name.  That costs a REFUSAL (exit 3, reported), never a
+    duplicate -- and a caller that wants a private directory says so with
+    ``--lock-file``, which the scheduled job does.
+    """
+    key = "\x00".join((base, str(project), ref)).encode("utf-8")
+    digest = hashlib.sha256(key).hexdigest()[:16]
+    return os.path.join(tempfile.gettempdir(),
+                        "vikunja-weekly-%s.lock" % digest)
+
+
 @contextlib.contextmanager
 def exclusive(path, wait=LOCK_WAIT_SECONDS):
     """Hold ``path`` exclusively for the read-and-create, or refuse.
@@ -108,11 +135,19 @@ def exclusive(path, wait=LOCK_WAIT_SECONDS):
     A guard that fails open reads as a pass.
     """
     try:
-        fd = os.open(path, os.O_RDWR | os.O_CREAT, 0o600)
+        fd = os.open(path, os.O_RDWR | os.O_CREAT, 0o666)
     except OSError as exc:
         raise RuntimeError(
             "could not open the lock file %s (%s) -- pass --lock-file to put "
             "it somewhere writable" % (path, exc))
+    # 🪤 0666, and the umask undone, because a lock is the one file that has to
+    # be SHARED. The scheduled run is root and a hand re-run is not; whoever
+    # created the file first would otherwise own a 0600 lock the other cannot
+    # open, and the second caller would refuse forever. It holds no secret.
+    # Confinement is the DIRECTORY's job -- put the lock somewhere only the
+    # intended callers can reach (the app dir), not somewhere world-writable.
+    with contextlib.suppress(OSError):
+        os.fchmod(fd, 0o666)
     deadline = _time.monotonic() + wait
     try:
         while True:
@@ -320,7 +355,7 @@ def parse_args(argv):
                         "(default 0 -- what the RTM forward produced)")
     p.add_argument("--lock-file", default=None,
                    help="serialise the check-and-create on this path "
-                        "(default: <body-file>.lock)")
+                        "(default: a temp-dir path keyed on server+project+ref)")
     p.add_argument("--dry-run", action="store_true",
                    help="read and report, create nothing")
     return p.parse_args(argv)
@@ -365,7 +400,7 @@ def main(argv):
     title = "%s %s" % (args.title_prefix, date)
     ref = "%s:%s" % (args.ref_prefix, date)
     api = Vikunja(base, token)
-    lock_path = args.lock_file or (args.body_file + ".lock")
+    lock_path = args.lock_file or default_lock_path(base, args.project, ref)
 
     try:
         # The read and the create are ONE critical section. Everything from
