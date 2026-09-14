@@ -437,9 +437,15 @@ def main(argv):
     title = "%s %s" % (args.title_prefix, date)
     ref = "%s:%s" % (args.ref_prefix, date)
     api = Vikunja(base, token)
-    lock_path = args.lock_file or default_lock_path(base, args.project, ref)
 
     try:
+        # 🪤 CHOOSING the lock path is inside the guard, not before it.
+        # `default_lock_path` raises when there is no usable temp directory,
+        # and computing it one line above the `try` let that escape as a
+        # traceback and an exit 1 -- a shape no caller of this script is told
+        # to expect (codex [P2] on 5d0f4114). Deciding where the lock goes is
+        # part of taking it.
+        lock_path = args.lock_file or default_lock_path(base, args.project, ref)
         # The read and the create are ONE critical section. Everything from
         # here to the create is inside it, because the window this closes is
         # exactly the gap between them.
