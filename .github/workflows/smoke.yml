@@ -1,0 +1,43 @@
+# Smoke check: install requirements.txt in kibi's scanner image
+# (python:2.7.18-slim-buster plus ledger; pilar compose/web/iron-blogger-scan/
+# Dockerfile), import every dependency and render.py, load bloggers.yml, render a
+# Mako template and compile the Python 2 scripts. vikunja-weekly-task.py is
+# Python 3 and is compiled separately. It exists so Dependabot PRs have a check
+# that can fail (DB3, bead hem-j124y).
+name: smoke
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: pip install, imports, bloggers.yml, Mako, py_compile
+        run: |
+          cat > "$RUNNER_TEMP/smoke.sh" <<'SH'
+          set -e
+          printf 'deb http://archive.debian.org/debian buster main\n' > /etc/apt/sources.list
+          apt-get -qq -o Acquire::Check-Valid-Until=false update
+          apt-get -qq install -y --no-install-recommends ledger > /dev/null
+          cd /src
+          pip install --no-cache-dir --disable-pip-version-check -r requirements.txt
+          python -c "import yaml, feedparser, lxml.html, mako.template, dateutil.parser, render; print('imports ok')"
+          python -c "import yaml; print('bloggers.yml: %d entries' % len(yaml.safe_load(open('bloggers.yml'))))"
+          python -c "from mako.template import Template; print(Template('mako \${n}').render(n='ok'))"
+          for f in $(ls *.py | grep -v '^vikunja-weekly-task.py$'); do python -m py_compile "$f"; done
+          echo 'py2 scripts compile'
+          SH
+          docker run --rm -v "$PWD:/src" -v "$RUNNER_TEMP/smoke.sh:/smoke.sh:ro" python:2.7.18-slim-buster sh /smoke.sh
+
+      - name: Compile the Python 3 poster
+        run: python3 -m py_compile vikunja-weekly-task.py
