@@ -45,4 +45,4 @@ for (name, u) in users.items():
             e.append(link)
 
 with open('bloggers.yml', 'w') as f:
-    yaml.safe_dump(users, f)
+    yaml.safe_dump(users, f, default_flow_style=None)
