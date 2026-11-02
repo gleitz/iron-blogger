@@ -83,4 +83,4 @@ else:
                 parse_feeds(weeks, l[2])
 
 with open('out/report.yml', 'w') as f:
-    yaml.safe_dump(log, f)
+    yaml.safe_dump(log, f, default_flow_style=None)

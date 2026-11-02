@@ -107,7 +107,7 @@ def generate_email():
             if bloggers.get(p) and 'end' not in bloggers[p]:
                 bloggers[p]['end'] = date
         with open('bloggers.yml','w') as b:
-            yaml.safe_dump(bloggers, b)
+            yaml.safe_dump(bloggers, b, default_flow_style=None)
 
         if not dry_run:
             subprocess.check_call(["git", "commit", "ledger", "bloggers.yml",
