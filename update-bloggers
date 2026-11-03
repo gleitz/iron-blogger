@@ -1,7 +1,38 @@
 #!/bin/sh
-HERE=$(dirname "$0")
-python $HERE/import-feeds.py
-python $HERE/render.py $HERE/templates/config.ini > $HERE/out/config.ini
-cp $HERE/out/config.ini $HERE/../planet-nightly/examples/iron/config.ini
+# Fail LOUDLY on ANY step, not just the last one.
+#
+# WHY (2026-08-24): this script was four sequential commands with no `set -e` and no
+# `&&`, so its exit status was the LAST command's only. import-feeds.py could fail,
+# the script carried on, and `sh update-bloggers` exited 0 -- the enclosing
+# iron-blogger-scan.service went GREEN while the ROSTER SILENTLY WENT STALE, and
+# bloggers get fined for weeks they DID post. Measured: with import-feeds.py exiting
+# 7, the old script exited 0 and still published the participants page.
+# The enclosing job's alerting made that WORSE, not better -- the green was real and
+# meant something narrower than it looked.
+set -e
 
-python $HERE/update-participants.py
+HERE=$(dirname "$0")
+
+die() {
+    echo "update-bloggers FAILED at ${1} (exit ${2})." >&2
+    echo "  Roster and planet config left UNCHANGED. The scan job will now fail loudly." >&2
+    exit "${2}"
+}
+
+# 1. roster import (rewrites bloggers.yml)
+python "$HERE/import-feeds.py" || die "import-feeds.py (roster import)" $?
+
+# 2. planet config: render to a TEMP file and publish only on success.
+#    `python render.py > out/config.ini` truncated the target BEFORE render ran, so a
+#    failed render left an EMPTY config that step 3 then copied over the planet's.
+TMP="$HERE/out/config.ini.tmp.$$"
+trap 'rm -f "$TMP"' EXIT
+python "$HERE/render.py" "$HERE/templates/config.ini" > "$TMP" || die "render.py (planet config)" $?
+[ -s "$TMP" ] || die "render.py (produced an EMPTY config)" 1
+mv "$TMP" "$HERE/out/config.ini" || die "mv (publishing rendered config)" $?
+
+# 3. publish to the planet
+cp "$HERE/out/config.ini" "$HERE/../planet-nightly/examples/iron/config.ini" || die "cp (planet config)" $?
+
+# 4. participants page
+python "$HERE/update-participants.py" || die "update-participants.py (participants page)" $?
