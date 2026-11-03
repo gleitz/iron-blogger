@@ -28,8 +28,8 @@ def _git(args, label="git"):
         subprocess.check_call(["git"] + args)
         return True
     except Exception as e:
-        print 'WARN: git %s skipped (%s: %s) -- continuing so the email still sends' % (
-            label, type(e).__name__, e)
+        print 'NOTE: git %s skipped, as expected on 143 (not a checkout, no git in the image; %s: %s) -- the ledger is written and the email still sends' % (
+            args[0], type(e).__name__, e)
         return False
 
 def _ledger_week_marker(date):
